@@ -1,0 +1,56 @@
+baseURL = "https://kmazurek95.github.io/"
+languageCode = "en-us"
+title = "Kaleb Mazurek"
+theme = ""
+paginate = 10
+enableRobotsTXT = true
+enableEmoji = true
+
+[params]
+  description = "Computational social scientist studying how contextual environments shape political behavior."
+  author = "Kaleb Mazurek"
+  tagline = "Computational Social Science · Political Behavior · Multilevel Modeling"
+  github = "https://github.com/kmazurek95"
+  linkedin = "https://www.linkedin.com/in/kaleb-mazurek/"
+  email = ""
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = "monokailight"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  method = "methods"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Research"
+    url = "/research-program/"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.main]]
+    name = "Writing"
+    url = "/posts/"
+    weight = 4
+  [[menu.main]]
+    name = "CV"
+    url = "/cv/"
+    weight = 5
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]

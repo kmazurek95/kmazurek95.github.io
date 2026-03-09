@@ -1,0 +1,27 @@
+{{ define "main" }}
+<article>
+  <div class="container content-narrow">
+    <header class="article-header">
+      {{ with .Params.type }}<div class="article-header__label">{{ . }}</div>{{ end }}
+      <h1>{{ .Title }}</h1>
+      <div class="article-header__meta">
+        <time>{{ .Date.Format "January 2, 2006" }}</time>
+        {{ with .Params.tags }}
+          <span>{{ range . }}<span class="tag">{{ . }}</span>{{ end }}</span>
+        {{ end }}
+      </div>
+    </header>
+    <div class="article-body">
+      {{ .Content }}
+    </div>
+    {{ if .Params.repo }}
+    <div style="padding: 1.5rem 0; border-top: 1px solid var(--color-border-light);">
+      <h3 style="font-family: var(--font-display); font-size: 1.1rem; margin-bottom: 1rem;">Links</h3>
+      {{ with .Params.repo }}<p><a href="{{ . }}" target="_blank" rel="noopener">GitHub Repository &rarr;</a></p>{{ end }}
+      {{ with .Params.dashboard }}<p><a href="{{ . }}" target="_blank" rel="noopener">Live Dashboard &rarr;</a></p>{{ end }}
+      {{ with .Params.paper }}<p><a href="{{ . }}" target="_blank" rel="noopener">Paper / Brief &rarr;</a></p>{{ end }}
+    </div>
+    {{ end }}
+  </div>
+</article>
+{{ end }}

@@ -1,0 +1,134 @@
+{{ define "main" }}
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-label">Computational Social Science</div>
+      <h1>I study how <em>contextual environments</em> shape political behavior — computationally, at scale.</h1>
+      <p class="hero-text">
+        MSc in Social Science Research from the University of Amsterdam. I build NLP pipelines, 
+        multilevel models, and interactive tools to answer questions about political behavior, 
+        public attitudes, and electoral geography across domains and data sources.
+      </p>
+      <div class="hero-links">
+        <a href="/projects/" class="btn-primary">View Research</a>
+        <a href="/about/">About Me &rarr;</a>
+        <a href="{{ .Site.Params.github }}" target="_blank" rel="noopener">GitHub &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Research Narrative -->
+<section class="section" id="research">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-number">01</span>
+      <div>
+        <h2 class="section-title">Research Narrative</h2>
+        <p class="section-subtitle">The thread connecting every project</p>
+      </div>
+    </div>
+    <div class="research-narrative">
+      <p>
+        Every project I build asks a version of the same question: <strong>how do contextual environments 
+        shape individual political outcomes?</strong> The method is always multilevel — individuals nested 
+        in contexts, units nested in groups, observations nested in structures. The data changes. The domain 
+        changes. The core analytical logic does not.
+      </p>
+      <p>
+        My thesis built an NLP pipeline to classify interest group prominence across 78,000 congressional 
+        floor speeches, asking how organized interests shape the informational environment of legislative debate. 
+        My public attitudes project modeled how neighborhood inequality affects individual redistribution 
+        preferences across 1,500 Dutch neighborhoods. My election analysis modeled the 2020-2024 county-level 
+        partisan swing across 3,152 US counties, finding that 31% of swing variance sits at the state level — a 
+        structural finding about where contextual effects actually live.
+      </p>
+      <p>
+        This is not just a methods story. It is a substantive claim: political behavior cannot be fully explained 
+        by individual characteristics alone. Context matters, and you need the right statistical architecture to 
+        model it. Whether the context is a congressional chamber, a neighborhood, or a state media market, the 
+        analytical challenge is the same — and so is the toolkit I bring to it.
+      </p>
+      <p>
+        I also bring measurement methodology thinking to AI evaluation. My published article "What Political 
+        Science Can Teach AI Evaluation" connects construct validity, inter-rater reliability, and sampling 
+        bias from social science to the challenges facing AI evaluation pipelines today. The same rigor I apply 
+        to operationalizing "interest group prominence" applies to designing rubrics for model output quality.
+      </p>
+    </div>
+    <div class="methods-grid">
+      <div class="method-tag">Multilevel Modeling</div>
+      <div class="method-tag">NLP / Text Classification</div>
+      <div class="method-tag">Measurement Design</div>
+      <div class="method-tag">Cross-National Analysis</div>
+      <div class="method-tag">Electoral Geography</div>
+      <div class="method-tag">AI Evaluation</div>
+      <div class="method-tag">Python / R</div>
+      <div class="method-tag">Arabic Language</div>
+    </div>
+    <p style="margin-top: 2rem;"><a href="/research-program/">Full research program, audience guide, and principles &rarr;</a></p>
+  </div>
+</section>
+
+<!-- Featured Projects -->
+<section class="section" id="projects">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-number">02</span>
+      <div>
+        <h2 class="section-title">Research Projects</h2>
+        <p class="section-subtitle">Shipped, documented, and reproducible</p>
+      </div>
+    </div>
+    <div class="projects-grid">
+      {{ range where .Site.RegularPages "Section" "projects" }}
+        {{ if .Params.featured }}
+        <div class="project-card">
+          <div class="project-card__type">{{ .Params.type }}</div>
+          <h3 class="project-card__title">{{ .Title }}</h3>
+          <p class="project-card__desc">{{ .Params.summary }}</p>
+          <div class="project-card__meta">
+            {{ range .Params.stats }}
+              <span class="project-card__stat">{{ . }}</span>
+            {{ end }}
+          </div>
+          <div class="project-card__links">
+            <a href="{{ .RelPermalink }}">Details &rarr;</a>
+            {{ with .Params.repo }}<a href="{{ . }}" target="_blank" rel="noopener">GitHub</a>{{ end }}
+            {{ with .Params.dashboard }}<a href="{{ . }}" target="_blank" rel="noopener">Dashboard</a>{{ end }}
+          </div>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- Recent Writing -->
+<section class="section" id="writing">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-number">03</span>
+      <div>
+        <h2 class="section-title">Writing</h2>
+        <p class="section-subtitle">Commentary, analysis, and research notes</p>
+      </div>
+    </div>
+    <ul class="post-list">
+      {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
+      <li class="post-item">
+        <time class="post-date">{{ .Date.Format "Jan 2006" }}</time>
+        <div>
+          <div class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+          {{ with .Params.summary }}<p class="post-excerpt">{{ . }}</p>{{ end }}
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+    <p style="margin-top: 1.5rem;"><a href="/posts/">All writing &rarr;</a></p>
+  </div>
+</section>
+
+{{ end }}

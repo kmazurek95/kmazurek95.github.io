@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="container">
+  <header class="page-header">
+    <h1>Research Projects</h1>
+    <p>Each project asks a version of the same question: how do contextual environments shape political outcomes?</p>
+  </header>
+  <div class="projects-grid">
+    {{ range .Pages.ByWeight }}
+    <div class="project-card">
+      <div class="project-card__type">{{ .Params.type }}</div>
+      <h3 class="project-card__title">{{ .Title }}</h3>
+      <p class="project-card__desc">{{ .Params.summary }}</p>
+      <div class="project-card__meta">
+        {{ range .Params.stats }}
+          <span class="project-card__stat">{{ . }}</span>
+        {{ end }}
+      </div>
+      <div class="project-card__links">
+        <a href="{{ .RelPermalink }}">Read More &rarr;</a>
+        {{ with .Params.repo }}<a href="{{ . }}" target="_blank" rel="noopener">GitHub</a>{{ end }}
+        {{ with .Params.dashboard }}<a href="{{ . }}" target="_blank" rel="noopener">Dashboard</a>{{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

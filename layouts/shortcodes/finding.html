@@ -1,0 +1,4 @@
+<div class="finding">
+  {{ with .Get "label" }}<div class="finding__label">{{ . }}</div>{{ end }}
+  <p>{{ .Inner | markdownify }}</p>
+</div>

@@ -1,0 +1,14 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-text">
+        &copy; {{ now.Year }} Kaleb Mazurek. Built with <a href="https://gohugo.io">Hugo</a>.
+      </div>
+      <div class="footer-links">
+        {{ with .Site.Params.github }}<a href="{{ . }}" target="_blank" rel="noopener">GitHub</a>{{ end }}
+        {{ with .Site.Params.linkedin }}<a href="{{ . }}" target="_blank" rel="noopener">LinkedIn</a>{{ end }}
+        <a href="{{ "posts/index.xml" | absURL }}">RSS</a>
+      </div>
+    </div>
+  </div>
+</footer>
