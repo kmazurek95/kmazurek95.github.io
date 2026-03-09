@@ -1,7 +1,6 @@
 baseURL = "https://kmazurek95.github.io/"
 languageCode = "en-us"
 title = "Kaleb Mazurek"
-theme = ""
 paginate = 10
 enableRobotsTXT = true
 enableEmoji = true
