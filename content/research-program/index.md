@@ -6,74 +6,78 @@ type: "page"
 
 <div class="about-intro">
 
-I study how political behavior is shaped by the contexts people live in, and I do it computationally, at scale, with methodological rigor that transfers across domains.
+I study the distributional politics of AI: how artificial intelligence creates winners and losers, and how different institutional configurations shape whether societies respond with solidarity or exclusion. The empirical foundation is four completed projects spanning congressional speech, Dutch neighborhoods, European welfare states, and US county-level elections. The consistent finding across all of them: institutional context outperforms individual and local conditions at every scale I have tested.
 
 </div>
 
-## The thread connecting every project
+## The organizing question
 
-Every project I've built asks a version of the same question: how do contextual environments shape individual political outcomes? The method is always multilevel -- individuals nested in contexts, units nested in groups, observations nested in structures. The data changes. The domain changes. The core analytical logic doesn't.
+When structural economic forces create winners and losers, what determines whether societies respond with solidarity or exclusion?
 
-This is not "I know Python and R." This is not "I can classify text." The story is: I think about politics as a multi-scale problem, and I have the computational tools to study it that way.
+I did not start with AI. I started with inequality, redistribution preferences, and welfare states. The empirical work pushed me toward AI because AI is the structural force that will test institutional configurations most severely, and it does so through multiple channels simultaneously.
 
-## What each project proves
+## The institutional context finding
 
-**[Interest Group Prominence in Congressional Speech](/projects/thesis-pipeline/)** is the technical foundation. The question -- how prominent are interest groups in congressional floor speeches -- is about how organized interests shape the informational environment of legislative debate. It proves I can formulate a measurement problem, build a classifier that works (F1 from 0.79 to 0.91), validate it with inter-rater reliability (kappa = 0.82), and produce interpretable results across 78,000 documents. For AI evaluation audiences, the measurement design thinking -- construct validity, annotation reliability, threshold optimization -- is the exact skillset that distinguishes senior evaluation roles from junior ones.
+Across four projects, one result keeps showing up: institutional context matters more than individual or local conditions for explaining political outcomes.
 
-**[Income Inequality and Redistribution Preferences](/projects/public-attitudes/)** is the methodological bridge. People in unequal neighborhoods do think differently about redistribution, even controlling for their own income. But the effect is small at the neighborhood level (ICC = 3.4%), which itself was the interesting finding -- it pushed me to ask what scale contextual effects actually operate at. The cross-national extension using European Social Survey data found larger effects at the country level (ICC = 7.7%, significant income-by-Gini interaction), pointing toward institutional rather than local context. That scale question is what connects this project to everything that came after.
+At the neighborhood level, local inequality explains only 3.4% of redistribution attitude variance. At the country level, the figure is 7.7%, with a significant income-by-inequality interaction. In the US election model, 31% of partisan swing variance sits at the state level. These are different questions, different data, different countries, different scales. The consistency of the finding is what makes it worth building on.
 
-**[2020-2024 County-Level Partisan Swing](/projects/election-swing/)** is the US credibility project. 31% of swing variance sitting at the state level means state-level context -- media markets, campaign investment, governor effects, policy environment -- explains nearly a third of why counties swung differently. That's the same analytical logic as the neighborhoods project, applied to a domain US employers immediately recognize. The Hispanic share finding speaks to the most-debated dynamic of the 2024 cycle. And the null cross-level interaction (education by state unemployment, p = 0.416) is an honest finding: the variation exists but its source is an open question. Reviewers respect researchers who follow the data.
+## Why AI
 
-**["What Political Science Can Teach AI Evaluation"](/posts/political-science-ai-evaluation/)** is the thought leadership piece. It repositions my Meta evaluation experience from "I labeled AI outputs" to "I understand evaluation methodology at a conceptual level and can draw on a richer intellectual tradition than most people in this space." The five parallels -- measurement validity, construct validity, inter-rater reliability, sampling bias, applied frameworks -- connect my political science training to the AI evaluation industry in a way most people in either field haven't articulated.
+AI does not create one kind of distributional consequence. It creates different kinds of consequences through different channels. Workers displaced from cognitive tasks face a different problem than households absorbing energy costs from data center grid expansion. Both face a different problem than countries whose mineral supply chains run through geopolitical chokepoints they do not control. These channels interact. The people most exposed to AI labor displacement are often the same people most burdened by regressive energy cost increases. The distributional politics of AI is not two separate stories. It is cumulative disadvantage channeled through different institutional systems.
 
-## How each project opens a different door
+If that is right, then the key variable is not the technology. It is the welfare state, labor market regulation, energy pricing structure, and geopolitical position of the society absorbing it. The organizing question stays the same. The domain has evolved because the evidence demanded it.
 
-The thesis proves NLP and text classification. The public attitudes project proves multilevel modeling depth. The election project proves US political data competence. The bridging document proves I can think across domains. Each one fills a gap the others don't.
+## What I bring that most researchers in this space do not
 
-This is deliberate. Building two projects that serve the same audience dilutes the portfolio. Every project should ask and answer a research question -- not just showcase a tool -- and every project should extend the reach of what came before.
+I spent two years inside the AI industry doing the work that makes these models function: data labeling at scale, benchmark question design, evaluation rubric development, quality assurance. I know what precarious AI labor looks like because I have done it. I have seen the gap between how the industry measures model improvement and what that improvement means for the humans on both sides, workers and users. That gives me something most political economists writing about AI do not have: direct, sustained contact with the production process.
 
-## What's next
+It also gives me a set of questions about AI evaluation itself. How do you measure whether a language model has gotten better, and better at what? How do you design measurement instruments that capture what matters rather than what is easy to count? How do you balance the drive to improve AI capability with whether that improvement serves humans or replaces what they do? These connect directly to the construct validity and measurement methodology I studied in my MSc.
 
-The next project extends my thesis pipeline to the 117th-119th Congresses, studying how AI industry lobbying has reshaped congressional floor speech. 774 organizations lobbied on AI in 2025, up 423% from 2020, and nobody has done computational text analysis of how that shows up in floor speeches. It reuses the same pipeline infrastructure (same tools, new questions -- how real research programs develop) and fills the one remaining strategic gap: no project studying AI itself.
+## What each project contributes
 
-In parallel, I'm building a simulation extension to the ESS redistribution analysis -- an agent-based model parameterized by regression coefficients, exploring whether inequality shocks cause redistribution attitudes to tip or stay stable across different welfare regime types. This bridges the gap between my empirical work and the mechanistic modeling questions at the core of tipping dynamics research in computational social science.
+**[Interest Group Prominence in Congressional Speech](/projects/thesis-pipeline/)** is the methodological foundation. It demonstrates that I can formulate a measurement problem, how do you operationalize "prominence"?, build a pipeline to study it at scale (78,000 documents, F1 = 0.91, Cohen's kappa = 0.82), and produce interpretable results. The measurement design thinking applies directly to AI evaluation rubric design. I rebuilt the entire pipeline after graduating because I knew it could be pushed further.
 
----
+**[Income Inequality and Redistribution Preferences](/projects/public-attitudes/)** is the empirical bridge. The small neighborhood-level ICC (3.4%) was itself the important finding, because it pushed the question toward what scale contextual effects actually operate at. The cross-national extension answered that: country-level institutions explain more than neighborhoods do. This is the project that opened the door to thinking about AI through an institutional lens.
+
+**[Redistribution Preferences and Institutional Trust Across Europe](/projects/ess-analysis/)** is where the distributional politics framework originates. The dual-DV design found that redistribution preferences drift gradually under inequality shocks, while institutional trust tips through a self-reinforcing feedback loop. If AI-driven disruption is a structural shock, the political crisis may not look like a fight over who gets what. It may look like a legitimacy collapse. The null direct effect of AI exposure on redistribution preferences (p = 0.857) is the motivating puzzle for the entire institutional conditioning argument.
+
+**[2020-2024 County-Level Partisan Swing](/projects/election-swing/)** is the US credibility project. It demonstrates that I can operate in the American political data ecosystem. The ICC of 0.305 means state-level context explains nearly a third of county-level swing. The null cross-level interaction (education by state unemployment, p = 0.416) narrows the search space for what drives state-level variation. I report what the data says.
+
+**["What Political Science Can Teach AI Evaluation"](/posts/political-science-ai-evaluation/)** connects my social science training to the AI evaluation industry. The same construct validity, inter-rater reliability, and sampling bias problems that social scientists have studied for decades are being rediscovered from scratch in AI evaluation. This piece repositions my evaluation experience from annotation to methodology.
+
+## Where this is heading
+
+My current research direction extends the institutional-context finding into the domain of AI. The core argument: the distributional consequences of AI are not uniform, and the variation maps onto institutional configurations. I have working papers in development that formalize this argument. They are not yet public, but they will appear on this site and on SocArXiv when ready.
+
+I am pursuing a PhD in computational social science. I placed in the top 7 of 184 applicants for the REPAIR project at VU Amsterdam, which studied welfare states and AI disruption. My primary current target is the ROOTS position at UvA, studying attitude-mediated social tipping dynamics. The bridge: the drift-vs-tip finding from my ESS analysis connects directly to the mechanistic modeling of social tipping in sustainability transitions.
+
+The thesis pipeline extension, analyzing how AI has been discussed in congressional debates since the 117th Congress, is planned but not yet started. It reuses the same infrastructure for a new question: how has AI industry lobbying reshaped the informational environment of legislative debate?
 
 ## Reading my work by audience
 
-Not every project matters equally for every audience. Here's how the portfolio is designed to work for different readers.
+### PhD programs
 
-### US political research (think tanks, policy shops, campaign analytics)
+The projects form a research program, not a collection. The consistent institutional-context finding is the empirical foundation for theoretical work on AI's distributional politics. The insider AI evaluation experience is not a CV gap. It is a methodological and substantive asset that most political economy applicants do not bring.
 
-Lead with the [election project](/projects/election-swing/). The ICC finding, the Hispanic share result, and the policy brief are the things that make someone at Catalist or the Cook Political Report or Data for Progress say "this person can work with our data, ask our questions, and produce findings we'd publish or brief to clients." The [thesis](/projects/thesis-pipeline/) proves NLP capability at scale. The [public attitudes project](/projects/public-attitudes/) proves multilevel modeling depth. The bridging document and Meta experience are footnotes for this audience -- useful if they come up, but not the lead.
+### Policy research
 
-### PhD programs (computational social science)
+Lead with the [election project](/projects/election-swing/). The ICC finding, the Hispanic share result, and the policy brief show I can produce findings that matter for live debates. The redistribution work demonstrates cross-national quantitative analysis. For international policy audiences, the comparative political economy framing and European data experience are the lead.
 
-Lead with the research program, not the individual projects. The [public attitudes project](/projects/public-attitudes/) and the ESS simulation together tell the micro-stability/macro-tipping story: neighborhood effects are small, but cross-national effects are larger, which is itself a finding about where contextual effects live. The [thesis](/projects/thesis-pipeline/) proves I can do original empirical research. The [election project](/projects/election-swing/) proves methodological range and honest null findings. The framing-and-escalation project (when built) becomes Phase 1 of a larger research vision. What PhD committees hear: "This person has a research program, not just a collection of projects. They think about questions that build on each other, and they can execute computationally."
+### AI evaluation
 
-### AI evaluation and safety roles
-
-Lead with the [bridging document](/posts/political-science-ai-evaluation/). It establishes me as someone who thinks about evaluation at a systems level -- not just someone who follows rubrics but someone who understands why measurement is hard. My Meta experience gets reframed as evaluation work (quality metrics, systematic failure pattern identification), not annotation. The portfolio projects are evidence of analytical depth: "this person understands construct validity because they've actually had to operationalize hard-to-measure concepts." What hiring managers hear: "This person can design rubrics, not just follow them."
-
-### General research positions (university labs, industry research teams)
-
-Lead with the methods, not the domain. The thesis becomes "large-scale text classification (78K documents, F1=0.91)." The election project becomes "multilevel modeling of geographic variation across 3,100 units nested in 50 groups." The public attitudes project becomes "cross-level interactions in hierarchical data." The domain details follow, but the methods are the headline. What they hear: "This person has real methodological range -- text analysis, multilevel modeling, measurement design -- and can apply it to whatever domain we work in."
+Lead with the [bridging document](/posts/political-science-ai-evaluation/). It establishes that I think about evaluation at a systems level. The portfolio projects demonstrate construct validity work on hard-to-measure concepts. My evaluation experience provides the applied context. I can design evaluation frameworks, not just execute them.
 
 ---
 
 ## Principles
 
-These aren't abstract. They come from building things and learning what actually matters.
+**Research questions beat technical demonstrations.** Every project asks and answers a question, not just showcases a tool. A model of county-level swing is a research contribution. A benchmark is a tool.
 
-**Research questions beat technical demonstrations.** Every project asks and answers a question, not just showcases a tool. A benchmark is a tool. A model of county-level swing is a research contribution. PhD committees and research teams notice the difference immediately.
+**Finished beats ambitious.** Each project in this portfolio is complete, documented, and reproducible before the next one begins.
 
-**Finished beats ambitious.** An unfinished project on GitHub with a promising README and half-built code is worse than nothing. Each project in this portfolio is complete, documented, and reproducible before the next one begins.
-
-**Honest null findings show maturity.** The cross-level interaction in the election project wasn't significant (p=0.416). The neighborhood ICC in the Dutch project was only 3.4%. I report these because I follow the data rather than torturing it into significance. Reviewers respect that.
+**Honest null findings show maturity.** The education-by-unemployment interaction was not significant (p = 0.416). The neighborhood ICC was 3.4%. The direct AI exposure effect on redistribution preferences was null (p = 0.857). I report what the data says.
 
 **Each project opens a new door.** The thesis proves NLP. The public attitudes project proves multilevel modeling. The election project proves US data competence. The bridging document proves cross-domain thinking. Don't build two projects that serve the same audience.
 
-**"Phase 1 of a larger program."** This is how real researchers talk about their work. Nobody finishes their entire research agenda in one project. Showing you can think in research programs rather than isolated projects is itself a signal of research maturity.
-
-**Presentation problem, not skills problem.** Every project in this portfolio demonstrates substantial capability. The priority is documenting and showcasing what's already been built, not chasing new credentials. Making existing work visible and legible to the right audiences is the work.
+**Institutional context as the master variable.** This is both a substantive finding and a theoretical commitment. It holds across every dataset and scale I have tested. It is what connects the empirical portfolio to the research agenda on AI.

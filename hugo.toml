@@ -6,9 +6,9 @@ enableRobotsTXT = true
 enableEmoji = true
 
 [params]
-  description = "Computational social scientist studying how contextual environments shape political behavior."
+  description = "Quantitative social scientist studying the distributional politics of AI — how artificial intelligence creates winners and losers through labor markets, energy systems, and geopolitical dependencies, and how institutional configurations shape whether societies respond with solidarity or exclusion."
   author = "Kaleb Mazurek"
-  tagline = "Computational Social Science · Political Behavior · Multilevel Modeling"
+  tagline = "Distributional Politics of AI · Comparative Political Economy · Multilevel Modeling"
   github = "https://github.com/kmazurek95"
   linkedin = "https://www.linkedin.com/in/kaleb-mazurek/"
   email = ""
