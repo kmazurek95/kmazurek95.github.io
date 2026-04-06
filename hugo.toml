@@ -4,6 +4,7 @@ title = "Kaleb Mazurek"
 paginate = 10
 enableRobotsTXT = true
 enableEmoji = true
+enableGitInfo = true
 
 [params]
   description = "Quantitative social scientist studying the distributional politics of AI — how artificial intelligence creates winners and losers through labor markets, energy systems, and geopolitical dependencies, and how institutional configurations shape whether societies respond with solidarity or exclusion."
@@ -12,6 +13,9 @@ enableEmoji = true
   github = "https://github.com/kmazurek95"
   linkedin = "https://www.linkedin.com/in/kaleb-mazurek/"
   email = ""
+
+[frontmatter]
+  lastmod = [":git", "lastmod", "date"]
 
 [markup]
   [markup.goldmark]

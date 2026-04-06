@@ -543,6 +543,12 @@ a:hover { color: var(--color-accent-light); }
   transition: color 0.2s;
 }
 .footer-links a:hover { color: var(--color-accent); }
+.footer-right { text-align: right; }
+.footer-updated {
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+  margin-top: 0.4rem;
+}
 
 /* ---- Page Header (for list pages) ---- */
 
