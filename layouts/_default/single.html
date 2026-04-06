@@ -5,7 +5,7 @@
       {{ with .Params.type }}<div class="article-header__label">{{ . }}</div>{{ end }}
       <h1>{{ .Title }}</h1>
       <div class="article-header__meta">
-        <time>{{ .Date.Format "January 2, 2006" }}</time>
+        {{ if not .Date.IsZero }}<time>{{ .Date.Format "January 2, 2006" }}</time>{{ end }}
         {{ with .Params.tags }}
           <span>{{ range . }}<span class="tag">{{ . }}</span>{{ end }}</span>
         {{ end }}
