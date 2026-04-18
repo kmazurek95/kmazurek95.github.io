@@ -5,89 +5,53 @@
   <div class="container">
     <div class="hero-inner">
       <div class="hero-label">Quantitative Social Science</div>
-      <h1>I study the <em>distributional politics</em> of AI and structural economic change.</h1>
+      <h1>I'm a <em>quantitative social scientist</em> studying the distributional politics of AI.</h1>
       <p class="hero-text">
-        When artificial intelligence reshapes labor markets, energy systems, and political institutions, 
-        who bears the cost? And what determines whether societies respond with solidarity or exclusion? 
-        I study these questions with multilevel models, NLP pipelines, and cross-national data. I also 
-        know what AI labor looks like from the inside, from benchmark design to evaluation rubrics to 
-        the daily work of training the models whose consequences I study.
+        How artificial intelligence reshapes labor markets, energy systems, and political institutions, and why institutional configurations determine who bears the cost. My work combines comparative political economy with multilevel modeling and NLP. I also work inside the AI industry, evaluating models and designing measurement frameworks.
       </p>
       <div class="hero-links">
-        <a href="/projects/" class="btn-primary">View Research</a>
-        <a href="/about/">About Me &rarr;</a>
-        <a href="{{ .Site.Params.github }}" target="_blank" rel="noopener">GitHub &rarr;</a>
+        <a href="/research-program/" class="btn-primary">Research Program</a>
+        <a href="/writing/academic/">Working Papers &rarr;</a>
+        <a href="/writing/essays/political-science-ai-evaluation/">AI Evaluation Perspective &rarr;</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Research Narrative -->
-<section class="section" id="research">
+<!-- Featured Paper -->
+<section class="section" id="featured-paper">
   <div class="container">
     <div class="section-header">
-      <span class="section-number">01</span>
       <div>
-        <h2 class="section-title">Research Program</h2>
-        <p class="section-subtitle">From institutional context to distributional politics</p>
+        <h2 class="section-title">Featured Paper</h2>
+        <p class="section-subtitle">Working Paper v1.0 · April 2026 · SocArXiv preprint forthcoming</p>
       </div>
     </div>
-    <div class="research-narrative">
-      <p>
-        One question runs through everything I have built: <strong>when structural economic forces 
-        create winners and losers, what determines whether societies respond with solidarity or 
-        exclusion?</strong> I started asking this about welfare states, inequality, and political 
-        attitudes. Now I ask it about AI.
-      </p>
-      <p>
-        The empirical foundation comes from four completed projects spanning congressional speech, 
-        Dutch neighborhoods, European welfare states, and US county-level elections. The finding that 
-        keeps showing up: institutional context outperforms individual and local conditions at every 
-        scale I have tested. Neighborhood inequality explains only 3.4% of redistribution attitude 
-        variance, but country-level institutions explain 7.7%. In the 2024 election, 31% of county-level 
-        partisan swing sits at the state level. The consistency of this pattern across different 
-        countries, scales, and data sources is what brought me to AI.
-      </p>
-      <p>
-        If the distributional consequences of artificial intelligence depend on institutional 
-        configurations, then neither techno-optimism nor techno-pessimism captures what is actually 
-        happening. The question is which institutions, protecting whom, under what conditions. AI does 
-        not create one kind of loser. It creates different kinds of losers through different channels: 
-        labor market displacement, energy costs socialized through utility bills, geopolitical 
-        dependencies on critical mineral supply chains. These channels interact. They often land on 
-        the same populations.
-      </p>
-      <p>
-        My position in this landscape is unusual. I work in applied AI evaluation, training and 
-        assessing the same models whose societal consequences I study. I have written benchmark 
-        questions, designed evaluation rubrics, and spent years labeling outputs at scale. That 
-        experience shapes how I think about measurement, about what AI can and cannot do, and about 
-        the gap between how the AI industry talks about progress and what that progress actually 
-        means for the people building it.
-      </p>
+    <div class="project-card" style="max-width: 820px;">
+      <div class="project-card__type">Comparative Political Economy · Working Paper</div>
+      <h3 class="project-card__title">Institutional Configurations and the Social Politics of AI</h3>
+      <p class="project-card__desc">Two-dimensional mapping of 29 OECD countries along AI task-profile and labor market dualization axes. The insider-outsider architecture built to insulate industrial workers from offshoring now faces a shock aimed at the cognitive workers that architecture was designed to protect.</p>
+      <div class="project-card__meta">
+        <span class="project-card__stat">29 countries</span>
+        <span class="project-card__stat">PIAAC + OECD EPL v4</span>
+        <span class="project-card__stat">4 populated cells</span>
+      </div>
+      <div class="project-card__links">
+        <a href="/writing/academic/typology-paper/">Details &rarr;</a>
+        <a href="/pdfs/Mazurek_2026_Typology_v1.pdf" target="_blank" rel="noopener">Download PDF</a>
+        <a href="https://github.com/kmazurek95/typology-paper" target="_blank" rel="noopener">Replication Code</a>
+      </div>
     </div>
-    <div class="methods-grid">
-      <div class="method-tag">Multilevel Modeling</div>
-      <div class="method-tag">NLP / Text Classification</div>
-      <div class="method-tag">Comparative Political Economy</div>
-      <div class="method-tag">Cross-National Analysis</div>
-      <div class="method-tag">Electoral Geography</div>
-      <div class="method-tag">AI Evaluation Methodology</div>
-      <div class="method-tag">Python / R / Stata</div>
-      <div class="method-tag">Arabic Language</div>
-    </div>
-    <p style="margin-top: 2rem;"><a href="/research-program/">Full research program and audience guide &rarr;</a></p>
   </div>
 </section>
 
-<!-- Featured Projects -->
+<!-- Research Projects -->
 <section class="section" id="projects">
   <div class="container">
     <div class="section-header">
-      <span class="section-number">02</span>
       <div>
         <h2 class="section-title">Research Projects</h2>
-        <p class="section-subtitle">Shipped, documented, and reproducible</p>
+        <p class="section-subtitle">Shipped, documented, reproducible</p>
       </div>
     </div>
     <div class="projects-grid">
@@ -111,6 +75,7 @@
         {{ end }}
       {{ end }}
     </div>
+    <p style="margin-top: 2rem;"><a href="/projects/">All projects &rarr;</a></p>
   </div>
 </section>
 
@@ -118,24 +83,54 @@
 <section class="section" id="writing">
   <div class="container">
     <div class="section-header">
-      <span class="section-number">03</span>
       <div>
-        <h2 class="section-title">Writing</h2>
-        <p class="section-subtitle">Commentary, analysis, and research notes</p>
+        <h2 class="section-title">Recent Writing</h2>
+        <p class="section-subtitle">Selected academic work, essays, and commentary</p>
       </div>
     </div>
     <ul class="post-list">
-      {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
       <li class="post-item">
-        <time class="post-date">{{ .Date.Format "Jan 2006" }}</time>
+        <time class="post-date">Apr 2026</time>
         <div>
-          <div class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
-          {{ with .Params.summary }}<p class="post-excerpt">{{ . }}</p>{{ end }}
+          <div class="post-title"><a href="/writing/academic/typology-paper/">Institutional Configurations and the Social Politics of AI</a> <span class="tag">Academic</span></div>
+          <p class="post-excerpt">Working paper mapping 29 OECD countries along AI task-profile and labor market dualization axes. Two institutional dimensions that welfare-regime classifications obscure.</p>
         </div>
       </li>
-      {{ end }}
+      <li class="post-item">
+        <time class="post-date">Apr 2026</time>
+        <div>
+          <div class="post-title"><a href="/writing/essays/the-politics-already-here/">The politics already here</a> <span class="tag">Essay</span></div>
+          <p class="post-excerpt">The coalition that will set the terms of US AI regulation is forming in state legislatures and county zoning boards right now.</p>
+        </div>
+      </li>
+      <li class="post-item">
+        <time class="post-date">Mar 2026</time>
+        <div>
+          <div class="post-title"><a href="/writing/essays/the-energy-channel/">The Energy Channel Is Being Neglected</a> <span class="tag">Essay</span></div>
+          <p class="post-excerpt">AI is making electricity more expensive, the costs land on the wrong people, and the political backlash is already visible in three other countries.</p>
+        </div>
+      </li>
     </ul>
-    <p style="margin-top: 1.5rem;"><a href="/posts/">All writing &rarr;</a></p>
+    <p style="margin-top: 1.5rem;"><a href="/writing/">All writing &rarr;</a></p>
+  </div>
+</section>
+
+<!-- Methods & Domains -->
+<section class="section" id="methods">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">Methods & Domains</h2>
+      </div>
+    </div>
+    <div class="methods-grid">
+      <div class="method-tag">Multilevel Modeling</div>
+      <div class="method-tag">NLP / Text Classification</div>
+      <div class="method-tag">Comparative Political Economy</div>
+      <div class="method-tag">Cross-National Analysis</div>
+      <div class="method-tag">AI Evaluation Methodology</div>
+      <div class="method-tag">Python / R / Stata</div>
+    </div>
   </div>
 </section>
 

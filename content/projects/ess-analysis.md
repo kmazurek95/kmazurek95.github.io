@@ -4,7 +4,7 @@ type: "Cross-National Analysis / Dual-DV Design"
 summary: "Multilevel analysis of redistribution preferences and political trust across 29 European countries using ESS data. Key finding: redistribution preferences drift gradually under inequality shocks, while institutional trust tips through a self-reinforcing feedback loop."
 date: 2025-08-01
 weight: 4
-featured: false
+featured: true
 repo: "https://github.com/kmazurek95/ess-redistribution-analysis"
 stats:
   - "29 countries"
@@ -18,7 +18,7 @@ tags: ["multilevel-modeling", "public-attitudes", "European-Social-Survey", "wel
 
 This is where the distributional politics framework originates. The dual-DV finding is not a methodological curiosity. It suggests that different political attitudes respond to the same structural pressure through different mechanisms. Redistribution preferences adjust incrementally, in line with updated self-interest calculations. Trust collapses through a feedback loop: declining trust reduces institutional engagement, which reduces the information and experience that sustain trust, which erodes it further.
 
-That distinction matters for AI. If AI-driven labor market disruption is a structural shock, and if institutional trust can tip while redistribution preferences merely drift, then the political crisis from AI may not look like a fight over who gets what. It may look like a legitimacy collapse. The null direct effect of AI exposure on redistribution preferences (p = 0.857) is the motivating puzzle for the institutional conditioning argument that runs through my current research.
+That distinction matters for AI. If AI-driven labor market disruption is a structural shock, and if institutional trust can tip while redistribution preferences merely drift, then the political crisis from AI may not look like a fight over who gets what. It may look like a legitimacy collapse. The null direct effect of AI exposure on redistribution preferences (p = 0.857) is the motivating puzzle for the institutional conditioning argument that runs through my current research. That argument is formalized in my [working paper on institutional configurations and the social politics of AI](/writing/academic/typology-paper/), which uses the ESS null finding as its starting point and builds a two-dimensional typology of OECD welfare regimes to explain it.
 
 ## The Question
 

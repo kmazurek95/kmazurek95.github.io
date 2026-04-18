@@ -42,7 +42,7 @@ The classification approach uses SHAP feature attribution to make the model inte
 
 ## Methodology Notes
 
-The measurement design challenge here is the interesting part. "Prominence" is not a binary observable -- it requires careful construct definition, annotation scheme design, and threshold optimization. The same thinking that goes into operationalizing hard-to-measure social science concepts applies directly to designing rubrics for AI evaluation. I wrote about this connection in my [bridging article on LinkedIn](https://www.linkedin.com/in/kaleb-mazurek/).
+The measurement design challenge here is the interesting part. "Prominence" is not a binary observable -- it requires careful construct definition, annotation scheme design, and threshold optimization. The same thinking that goes into operationalizing hard-to-measure social science concepts applies directly to designing rubrics for AI evaluation. I wrote about this connection in ["What Political Science Can Teach AI Evaluation"](/writing/essays/political-science-ai-evaluation/), an essay on the site.
 
 ## Links
 

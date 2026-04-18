@@ -47,7 +47,7 @@ enableGitInfo = true
     weight = 3
   [[menu.main]]
     name = "Writing"
-    url = "/posts/"
+    url = "/writing/"
     weight = 4
   [[menu.main]]
     name = "CV"

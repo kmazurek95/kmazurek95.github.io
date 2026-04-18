@@ -55,6 +55,7 @@ A 3-page brief translating model findings into actionable insights for campaign 
 
 ## Links
 
+- [Policy Brief: What State-Level Context Adds to the National Narrative](/writing/policy/county-election-swing-brief/) -- the applied version of the research finding, with download
 - [Interactive Dashboard](https://us-election-county-swing.streamlit.app/) -- choropleth maps, demographic predictors, model results
 - [GitHub Repository](https://github.com/kmazurek95/us-election-county-swing)
 - [Policy Brief (PDF)](https://github.com/kmazurek95/us-election-county-swing/blob/main/docs/policy_brief.pdf)
