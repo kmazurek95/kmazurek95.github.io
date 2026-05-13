@@ -32,13 +32,13 @@ AI does not create one kind of distributional consequence. It creates several, t
 
 These channels often land on the same populations. A household facing wage compression on the labor channel is often the same household absorbing grid upgrade costs on the energy channel. The distributional politics of AI is not three separate stories; it is cumulative disadvantage channeled through different institutional systems.
 
-### The explanatory variable is not the technology
+### The explanatory variable of interest is not the technology
 
-If that framing is right, the explanatory variable of interest is not the model, the capability, or the adoption rate. It is the welfare state, labor market regulation, energy pricing structure, and geopolitical position of the society absorbing the shock. The question stays what it was. The domain evolved because the evidence demanded it.
+If that framing is right, the explanatory variable of interest is not the model, the capability, or the adoption rate. It is the welfare state, labor market regulation, energy pricing structure, and geopolitical position of the society absorbing the shock. The question stays what it was. The domain evolved because the evidence pointed there.
 
 ## What I bring from inside the AI industry
 
-I have spent two years inside the AI industry doing measurement work: evaluation rubrics, benchmark design, annotation at scale, quality assurance. This is applied construct validity. I know what precarious AI labor looks like because I have done it. I have watched evaluation rubrics fail in practice, and I have seen the gap between how the industry measures model improvement and what that improvement means for the humans on both sides. That experience gives the theoretical work ballast that most political economists writing about AI do not have.
+Since mid-2024 I have done contract AI evaluation work across several platforms: evaluation rubrics, benchmark design, annotation at scale, quality assurance. This is applied construct validity. I have watched evaluation rubrics fail in practice, and I have seen the gap between how the industry measures model improvement and what that improvement means for the humans on both sides of the rubric. That experience gives the theoretical work ballast that most political economists writing about AI do not have.
 
 ## Portfolio: what each project contributes
 
@@ -49,17 +49,17 @@ The methodological foundation. Demonstrates that I can formulate a measurement p
 The empirical bridge. The small neighborhood-level ICC (3.4%) was itself the finding; it pushed the question toward what scale contextual effects actually operate at. The cross-national extension answered it: country-level institutions explain more than neighborhoods do. This is the project that opened the door to thinking about AI through an institutional lens.
 
 ### [Redistribution Preferences and Institutional Trust Across Europe](/projects/ess-analysis/)
-Where the distributional politics framework originates. Redistribution preferences drift gradually under inequality shocks; institutional trust tips through a self-reinforcing feedback loop. If AI-driven disruption is a structural shock, the political crisis may not look like a fight over who gets what; it may look like a legitimacy collapse. The null direct effect of AI exposure on redistribution preferences (*p* = 0.857) is the motivating puzzle for the institutional conditioning argument.
+Where the distributional-politics framing first became analytically tractable. Redistribution preferences drift gradually under inequality shocks; institutional trust tips through a self-reinforcing feedback loop. If AI-driven disruption is a structural shock, the political crisis may not look like a fight over who gets what; it may look like a legitimacy collapse. The null direct effect of AI exposure on redistribution preferences (*p* = 0.857) is the motivating puzzle for the institutional conditioning argument.
 
 ### [2020–2024 County-Level Partisan Swing](/projects/election-swing/)
 The US credibility project. The state-level ICC of 0.305 means roughly a third of county-level swing variance sits at the state level. The null cross-level interaction (education × state unemployment, *p* = 0.416) narrows the search space for what drives state-level variation. I report what the data says.
 
 ### [Institutional Configurations and the Social Politics of AI](/writing/academic/typology-paper/)
-The first formal output of the framework. A two-dimensional typology of OECD countries along AI task-profile and labor market dualization axes. V1 establishes the theoretical structure and an aggregate empirical mapping; v2 integrates OECD Risks that Matter microdata for individual-level tests of the regime × exposure interaction. Working Paper v1.0, April 2026. SocArXiv preprint forthcoming.
+The first formal output of the framework. A two-dimensional typology of OECD countries along AI task-profile and labor market dualization axes. V1 establishes the theoretical structure and an aggregate empirical mapping; v2 integrates OECD Risks that Matter microdata for individual-level tests of the regime × exposure interaction. Working Paper v1.0, April 2026.
 
 ## Where this is heading
 
-Three workstreams extend the program. Version 2 of the typology paper moves from aggregate mapping to individual-level estimation using OECD Risks that Matter 2022 and 2024 microdata. A second academic paper, *The Missing Variable*, formalizes the multi-channel argument by integrating AI energy demand, critical mineral supply chains, and data center vulnerability into a single analytical framework. A planned extension of my thesis pipeline will study how AI has been discussed in congressional debates since the 117th Congress, reusing the validated classifier on a new substantive question.
+Two workstreams extend the program. Version 2 of the typology paper moves from aggregate mapping to individual-level estimation using OECD Risks that Matter 2022 and 2024 microdata. A working paper synthesizing the multi-channel argument is in development; the draft is being restructured to incorporate empirical work currently in design on welfare state policy response to AI-related distributional pressure across the OECD. A future extension of the thesis pipeline will apply the validated classifier to AI discourse in Congress; that work is on the medium-term agenda but is not currently active.
 
 ## What I am not yet claiming
 
@@ -67,7 +67,7 @@ The current portfolio establishes a conditional pattern: institutional context m
 
 ## Reading my work by audience
 
-**Research and academic readers.** The projects form a program, not a collection. The institutional-context finding is the empirical foundation; the typology paper is the first theoretical formalization; *The Missing Variable* will be the multi-channel extension. Start with the [typology paper](/writing/academic/typology-paper/).
+**Research and academic readers.** The projects form a program, not a collection. The institutional-context finding is the empirical foundation; the typology paper is the first theoretical formalization; a working paper synthesizing the multi-channel argument is in development. Start with the [typology paper](/writing/academic/typology-paper/).
 
 **Policy and applied research readers.** Start with the [2024 election project](/projects/election-swing/) and its [policy brief](/writing/policy/county-election-swing-brief/). Cross-national work is in the [ESS project](/projects/ess-analysis/). The [essay series](/writing/essays/) applies the multi-channel framework to current events in AI infrastructure, energy, and geopolitics.
 
@@ -79,4 +79,4 @@ The current portfolio establishes a conditional pattern: institutional context m
 - **Finished beats ambitious.** Every project in this portfolio is complete, documented, and reproducible before the next one begins.
 - **Honest null findings show maturity.** The education × unemployment interaction was not significant (*p* = 0.416). The neighborhood ICC was 3.4%. The direct AI exposure effect on redistribution preferences was null (*p* = 0.857). I report what the data says.
 - **Each project opens a new door.** Thesis proves NLP capability. Public attitudes proves multilevel modeling depth. Election project proves US data competence. Typology paper proves theoretical formalization.
-- **Institutional context is the master variable.** Both a substantive finding and a theoretical commitment. It holds across every dataset and scale I have tested.
+- **Institutional context is the recurring finding.** Both a substantive pattern and a guiding hypothesis. It has held across every dataset and scale I have tested so far.

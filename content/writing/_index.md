@@ -7,7 +7,7 @@ My writing runs across three registers that differ in formality, length, and how
 
 ## Academic
 
-*Formal academic research written with full methodological transparency and a complete citation apparatus. Working papers, scholarly output from graduate and independent research, and longer-form analytical work. Preprints are posted to SocArXiv when ready.*
+*Formal academic research written with full methodological transparency and a complete citation apparatus. Working papers, scholarly output from graduate and independent research, and longer-form analytical work. Working papers are posted here, with SocArXiv preprints where appropriate.*
 
 **[View all academic writing →](/writing/academic/)**
 

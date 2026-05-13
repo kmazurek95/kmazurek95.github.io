@@ -1,6 +1,6 @@
 ---
 title: "County-Level Partisan Swing, 2020–2024: What State-Level Context Adds to the National Narrative"
-subtitle: "Policy Brief — Independent Analysis"
+subtitle: "Policy Brief: Independent Analysis"
 date: 2026-03-15
 type: "Policy Brief"
 status: "Independent Analysis · March 2026"
@@ -34,7 +34,7 @@ Post-election analysis of the 2024 partisan swing has focused heavily on county-
 
 For campaign and advocacy work, the state-level ICC has a concrete implication: demographic targeting strategies that treat counties as independent units systematically underweight the structural forces that distinguish how the same demographic patterns play out across different state contexts. A Hispanic-majority county in Florida and a Hispanic-majority county in California did not move in parallel. The difference lives at the state level.
 
-For research and policy analysis, the null cross-level interaction on education-by-unemployment is a boundary condition worth reporting honestly. The education gradient's state-level variation is real; its explanation is not state economic change. That narrows the search space for what actually drives the variation — candidate explanations include state media market structure, differential campaign spending, and local party infrastructure — each requiring different data to test.
+For research and policy analysis, the null cross-level interaction on education-by-unemployment is a boundary condition worth reporting honestly. The education gradient's state-level variation is real; its explanation is not state economic change. That narrows the search space for what actually drives the variation. Candidate explanations include state media market structure, differential campaign spending, and local party infrastructure, each requiring different data to test.
 
 ## Methodology
 

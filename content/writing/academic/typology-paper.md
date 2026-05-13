@@ -3,8 +3,7 @@ title: "Institutional Configurations and the Social Politics of AI"
 subtitle: "A Two-Dimensional Typology of OECD Countries"
 date: 2026-04-17
 type: "Working Paper"
-status: "Working Paper v1.0 — April 2026"
-socarxiv_status: "SocArXiv preprint forthcoming"
+status: "Working Paper v1.0, April 2026"
 paper: "/pdfs/Mazurek_2026_Typology_v1.pdf"
 repo: "https://github.com/kmazurek95/typology-paper"
 authors: ["Kaleb Mazurek"]
@@ -16,11 +15,9 @@ tags: ["Academic", "Political Economy", "AI Evaluation"]
 weight: 1
 ---
 
-**Working Paper v1.0 · April 2026 · SocArXiv preprint forthcoming**
+**Working Paper v1.0 · April 2026**
 
 [**Download PDF**](/pdfs/Mazurek_2026_Typology_v1.pdf) · [Replication code and data](https://github.com/kmazurek95/typology-paper)
-
-The SocArXiv preprint will replace the GitHub-hosted PDF as the canonical citation once posted; this page will be updated with the SocArXiv handle and DOI at that time.
 
 ---
 
@@ -32,10 +29,10 @@ This paper develops a two-dimensional typology of OECD countries that identifies
 
 ## Key findings
 
-- **Integrates three previously siloed literatures** — AI exposure measurement, automation-and-preferences, and dualization — into a single two-dimensional framework, with a novel theoretical claim: the insider-outsider architecture built to insulate industrial workers from offshoring now faces a shock aimed at the cognitive workers that architecture was designed to protect.
+- **Integrates three previously siloed literatures** (AI exposure measurement, automation-and-preferences, and dualization) into a single two-dimensional framework, with a novel theoretical claim: the insider-outsider architecture built to insulate industrial workers from offshoring now faces a shock aimed at the cognitive workers that architecture was designed to protect.
 - **All four cells are empirically populated**, confirming the two dimensions are analytically independent rather than collapsing onto a single diagonal. The PIAAC task-profile measure externally validates against country-level Felten AIOE scores at *r* = 0.71 across 21 European countries.
 - **Several country placements diverge from standard welfare regime classifications** in theoretically informative ways. Spain lands with the Nordics after its 2012 and 2021 labor market reforms. Sweden's deep formal dualization separates it from the rest of Scandinavia. The Anglophone countries group with Germany rather than forming a liberal bloc. Italy's post-Jobs Act compression repositions it. These placements are what the two-dimensional framework is built to detect.
-- **Aggregate OECD Risks that Matter 2022 data provides partial, directional support.** The displacement-complementarity axis predicts redistribution demand in the expected ordering (Cell 3 > Cell 2 > Cell 1 > Cell 4). The dualization axis does not predict aggregate preferences — a pattern consistent with the welfare-attitude tradition scope condition identified in the framework. The null is what motivates the v2 multilevel specification, forthcoming as a separate SocArXiv preprint.
+- **Aggregate OECD Risks that Matter 2022 data provides partial, directional support.** The displacement-complementarity axis predicts redistribution demand in the expected ordering (Cell 3 > Cell 2 > Cell 1 > Cell 4). The dualization axis does not predict aggregate preferences, a pattern consistent with the welfare-attitude tradition scope condition identified in the framework. The null is what motivates the v2 multilevel specification, in preparation.
 
 ## The two-dimensional space
 
@@ -51,18 +48,16 @@ Twenty-nine OECD countries are positioned along Axis 1 (task-profile composition
 
 The pattern is partially consistent with the framework's predictions. Redistribution demand is highest in Cell 3 (displacement + narrow gap, ~65%) and lowest in Cell 1 (complementarity + narrow gap, ~54%), consistent with the prediction that displacement-type exposure generates stronger compensatory demand. The dualization axis does not predict aggregate redistribution demand: Cell 4 shows *lower* redistribution demand than Cell 3 despite deeper dualization. Education-spending preferences run opposite to the social-investment prediction, with displacement-exposed cells (3 and 4) showing the highest demand rather than complementarity-exposed cells.
 
-These results are not a refutation of the framework but a scope condition made empirical. Cell 4 groups post-communist countries (Czechia, Latvia, Poland), East Asian coordinated economies (Japan, Korea), and one Nordic outlier (Sweden). These countries share structural positions on the two dimensions but differ profoundly in welfare-attitude traditions. The aggregate comparison cannot separate the structural effect of deep dualization from baseline tradition differences. Individual-level estimation with country-level controls for welfare tradition is what it takes to adjudicate whether the dualization mechanism works as theorized — which is exactly the specification v2 is built for.
+These results are not a refutation of the framework but a scope condition made empirical. Cell 4 groups post-communist countries (Czechia, Latvia, Poland), East Asian coordinated economies (Japan, Korea), and one Nordic outlier (Sweden). These countries share structural positions on the two dimensions but differ profoundly in welfare-attitude traditions. The aggregate comparison cannot separate the structural effect of deep dualization from baseline tradition differences. Individual-level estimation with country-level controls for welfare tradition is what it takes to adjudicate whether the dualization mechanism works as theorized. That is exactly the specification v2 is built for.
 
 ## Data and methods
 
-The analysis draws on PIAAC Cycle 2 (2022–2023) country-level means on ICT, numeracy, and reading skill use at work; OECD Employment Protection Legislation Version 4 sub-indices (EPRC and EPT); OECD Risks that Matter 2022 Collected Statlinks; and Eurostat Labour Force Survey employment shares by ISCO-08 major group for the AIOE validation. Axis 1 is the first principal component of the three PIAAC skill-use scales (loadings: ICT = 0.52, numeracy = 0.62, reading = 0.59). Axis 2 is EPRC − EPT. Cluster boundaries are drawn at the sample medians on both dimensions. The external validation uses a Pearson correlation between the PCA-derived task-profile score and country-level Felten AIOE aggregated via Eurostat employment shares (*r* = 0.71, *p* < .001, *N* = 21; Spearman rho = 0.70). Full replication code and data are available at the [GitHub repository](https://github.com/kmazurek95/typology-paper). A SocArXiv preprint will follow, at which point the SocArXiv version becomes the canonical citation.
+The analysis draws on PIAAC Cycle 2 (2022–2023) country-level means on ICT, numeracy, and reading skill use at work; OECD Employment Protection Legislation Version 4 sub-indices (EPRC and EPT); OECD Risks that Matter 2022 Collected Statlinks; and Eurostat Labour Force Survey employment shares by ISCO-08 major group for the AIOE validation. Axis 1 is the first principal component of the three PIAAC skill-use scales (loadings: ICT = 0.52, numeracy = 0.62, reading = 0.59). Axis 2 is EPRC − EPT. Cluster boundaries are drawn at the sample medians on both dimensions. The external validation uses a Pearson correlation between the PCA-derived task-profile score and country-level Felten AIOE aggregated via Eurostat employment shares (*r* = 0.71, *p* < .001, *N* = 21; Spearman rho = 0.70). Full replication code and data are available at the [GitHub repository](https://github.com/kmazurek95/typology-paper).
 
 ## v2: what's coming
 
-Version 2, in preparation, extends the analysis with individual-level microdata from the OECD Risks that Matter survey (2022 and 2024 waves, received from the OECD Directorate for Employment, Labour and Social Affairs), pooled and merged with PIAAC task profiles and OECD EPL Version 4 indicators. Individual AI exposure is operationalized through NACE industry-based Felten AIOE scores; insider–outsider status through an OECD-derived standard/non-standard worker flag; and the main outcome through a three-item technology-framed policy scale drawn from the RTM digitalization battery. The v2 specification estimates multilevel models with cross-level interactions to test whether individual AI occupational exposure has different preference effects across institutional configurations, with country-level controls for welfare-attitude tradition. Identification leans on a wave-by-exposure interaction in the spirit of Bartik-style fixed-treatment difference-in-differences. The v2 draft will be posted to SocArXiv as a separate preprint and linked from this page when available.
+Version 2, in preparation, extends the analysis with individual-level microdata from the OECD Risks that Matter survey (2022 and 2024 waves, received from the OECD Directorate for Employment, Labour and Social Affairs), pooled and merged with PIAAC task profiles and OECD EPL Version 4 indicators. Individual AI exposure is operationalized through NACE industry-based Felten AIOE scores; insider–outsider status through an OECD-derived standard/non-standard worker flag; and the main outcome through a three-item technology-framed policy scale drawn from the RTM digitalization battery. The v2 specification estimates multilevel models with cross-level interactions to test whether individual AI occupational exposure has different preference effects across institutional configurations, with country-level controls for welfare-attitude tradition. Identification leans on a wave-by-exposure interaction in the spirit of Bartik-style fixed-treatment difference-in-differences. The v2 draft will be posted as a separate working paper and linked from this page when available.
 
 ## Cite as
 
 Mazurek, K. (2026). *Institutional Configurations and the Social Politics of AI: A Two-Dimensional Typology of OECD Countries*. Working Paper v1.0, April 2026. Available at https://kmazurek95.github.io/writing/academic/typology-paper/
-
-*A SocArXiv preprint with stable handle and DOI is forthcoming; once posted, it will become the canonical version for citation.*
