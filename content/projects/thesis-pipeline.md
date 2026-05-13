@@ -3,7 +3,7 @@ title: "Interest Group Prominence in Congressional Speech"
 type: "NLP Pipeline / Text Classification"
 summary: "Built an end-to-end NLP pipeline classifying interest group prominence across 78,000 congressional floor speeches from the 114th-115th Congress. Measures how organized interests shape the informational environment of legislative debate."
 date: 2025-09-01
-weight: 2
+weight: 3
 featured: true
 repo: "https://github.com/kmazurek95/ThesisPipelineRework"
 dashboard: "https://thesispipelinerework-emngd3hbxghtkfzbe9secw.streamlit.app/"

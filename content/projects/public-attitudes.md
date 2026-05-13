@@ -3,7 +3,7 @@ title: "Income Inequality and Redistribution Preferences"
 type: "Multilevel Modeling / Cross-National Analysis"
 summary: "Multilevel analysis of how neighborhood and national inequality contexts shape individual redistribution preferences, using Dutch neighborhood data (CBS) and European Social Survey cross-national data."
 date: 2025-06-01
-weight: 3
+weight: 4
 featured: false
 repo: "https://github.com/kmazurek95/public-attitudes-research"
 dashboard: "https://public-attitudes-research-zcx3tbf4verisz7pavqgzb.streamlit.app/"
@@ -47,7 +47,7 @@ The neighborhood ICC of 3.4% and the country ICC of 7.7% together tell a story: 
 - [Streamlit Dashboard](https://public-attitudes-research-zcx3tbf4verisz7pavqgzb.streamlit.app/)
 - [Shiny Dashboard (R)](https://kmazurek-analytics.shinyapps.io/income-inequality-attitudes/)
 - [GitHub Repository](https://github.com/kmazurek95/public-attitudes-research)
-- [Academic Paper](https://github.com/kmazurek95/public-attitudes-research/blob/main/docs/academic/PAPER.md)
+- [Working paper: Neighborhood Inequality and Redistribution Preferences](/writing/academic/neighborhood-inequality/)
 - [Case Study](https://github.com/kmazurek95/public-attitudes-research/blob/main/docs/portfolio/CASE_STUDY.md)
 
 ### Notebooks

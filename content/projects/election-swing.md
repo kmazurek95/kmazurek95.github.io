@@ -3,7 +3,7 @@ title: "2020-2024 County-Level Partisan Swing"
 type: "Electoral Geography / Multilevel Modeling"
 summary: "Multilevel model of the 2020-2024 county-level partisan swing across 3,152 US counties nested in 49 states. 31% of swing variance is between states. Hispanic population share is the strongest predictor of rightward swing."
 date: 2026-03-08
-weight: 1
+weight: 2
 featured: true
 repo: "https://github.com/kmazurek95/us-election-county-swing"
 dashboard: "https://us-election-county-swing.streamlit.app/"
