@@ -150,7 +150,7 @@ Taught 26 classes per week in 5th-grade humanities and 1st-grade English at a bi
 <div class="cv-section">
 <h2>Publications & Writing</h2>
 
-<h3>Working Papers</h3>
+<h3>Papers</h3>
 
 <div class="cv-entry">
 <div class="cv-entry__header">
@@ -172,6 +172,16 @@ Originally completed February 2023 as part of MSc graduation requirements (AISSR
 </div>
 </div>
 
+<div class="cv-entry">
+<div class="cv-entry__header">
+<span class="cv-entry__title"><a href="https://github.com/kmazurek95/ThesisPipelineRework/blob/main/docs/Thesis_UvA_Kaleb_Mazurek.pdf">Interest Group Prominence in Congressional Floor Speech</a></span>
+<span class="cv-entry__date">MSc Thesis, University of Amsterdam, 2023</span>
+</div>
+<div class="cv-entry__desc">
+Grade: 8.0/10. Advisor: Dr. Joost Berkhout. NLP pipeline across 78,000 Congressional Record documents; SVM classifier (F1 = 0.79) and multilevel modeling of organizational prominence.
+</div>
+</div>
+
 <h3>Policy Analysis</h3>
 
 <div class="cv-entry">
@@ -188,16 +198,51 @@ Multilevel analysis of 3,152 US counties nested in 49 states; 31% of swing varia
 
 <div class="cv-entry">
 <div class="cv-entry__header">
-<span class="cv-entry__title">The Missing Variable</span>
-<span class="cv-entry__date">Substack series and website essays, 2026</span>
+<span class="cv-entry__title"><a href="https://substack.com/@kmazurek95/p-193636237">"The Energy Channel Is Being Neglected"</a></span>
+<span class="cv-entry__date">Substack · April 2026</span>
 </div>
 <div class="cv-entry__desc">
-Sustained argumentative writing on the political economy of AI infrastructure, energy systems, and welfare state institutions. Selected pieces:
-<br>· <a href="https://substack.com/@kmazurek95/p-193636237">"The Energy Channel Is Being Neglected"</a> (April 2026). Regressive cost socialization of AI-driven electricity demand and the political backlash already visible in the Netherlands, Sweden, and Australia.
-<br>· <a href="/writing/essays/the-politics-already-here/">"The politics already here"</a> (April 2026). The bipartisan coalition forming around US data center restriction and the labor frame missing from the policy demand stack.
-<br>· <a href="/writing/essays/the-price-of-being-a-target/">"The price of being a target"</a> (March 2026). The IRGC's April 2026 target list and the defensive posture hyperscalers now need, flowing through cloud pricing and inland US siting.
-<br>· <a href="/writing/essays/six-weeks-of-helium/">"Six weeks of helium"</a> (March 2026). The semiconductor supply chain's helium buffer and the Layer 2 constraints that may bind before Layer 1 distributional politics does.
-<br>· <a href="/writing/essays/the-other-end-of-the-supply-chain/">"The other end of the supply chain"</a> (March 2026). AI's helium bottleneck at the extraction end in Rukwa, Tanzania, and what the consultation literature predicts.
+Regressive cost socialization of AI-driven electricity demand and the political backlash already visible in the Netherlands, Sweden, and Australia.
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__header">
+<span class="cv-entry__title"><a href="/writing/essays/the-politics-already-here/">"The politics already here"</a></span>
+<span class="cv-entry__date">Essay · April 2026</span>
+</div>
+<div class="cv-entry__desc">
+The bipartisan coalition forming around US data center restriction and the labor frame missing from the policy demand stack.
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__header">
+<span class="cv-entry__title"><a href="/writing/essays/the-price-of-being-a-target/">"The price of being a target"</a></span>
+<span class="cv-entry__date">Essay · March 2026</span>
+</div>
+<div class="cv-entry__desc">
+The IRGC's April 2026 target list and the defensive posture hyperscalers now need, flowing through cloud pricing and inland US siting.
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__header">
+<span class="cv-entry__title"><a href="/writing/essays/six-weeks-of-helium/">"Six weeks of helium"</a></span>
+<span class="cv-entry__date">Essay · March 2026</span>
+</div>
+<div class="cv-entry__desc">
+The semiconductor supply chain's helium buffer and the Layer 2 constraints that may bind before Layer 1 distributional politics does.
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__header">
+<span class="cv-entry__title"><a href="/writing/essays/the-other-end-of-the-supply-chain/">"The other end of the supply chain"</a></span>
+<span class="cv-entry__date">Essay · March 2026</span>
+</div>
+<div class="cv-entry__desc">
+AI's helium bottleneck at the extraction end in Rukwa, Tanzania, and what the consultation literature predicts.
 </div>
 </div>
 
@@ -206,22 +251,10 @@ Sustained argumentative writing on the political economy of AI infrastructure, e
 <div class="cv-entry">
 <div class="cv-entry__header">
 <span class="cv-entry__title">"What Political Science Can Teach AI Evaluation"</span>
-<span class="cv-entry__date">LinkedIn article, March 2026</span>
+<span class="cv-entry__date">LinkedIn · March 2026</span>
 </div>
 <div class="cv-entry__desc">
 Five methodological parallels between social science research design and AI evaluation pipeline challenges.
-</div>
-</div>
-
-<h3>Pre-graduate Research</h3>
-
-<div class="cv-entry">
-<div class="cv-entry__header">
-<span class="cv-entry__title"><a href="https://github.com/kmazurek95/ThesisPipelineRework/blob/main/docs/Thesis_UvA_Kaleb_Mazurek.pdf">Interest Group Prominence in Congressional Floor Speech</a></span>
-<span class="cv-entry__date">MSc Thesis, University of Amsterdam, 2023</span>
-</div>
-<div class="cv-entry__desc">
-Grade: 8.0/10. Advisor: Dr. Joost Berkhout. NLP pipeline across 78,000 Congressional Record documents; SVM classifier (F1 = 0.79) and multilevel modeling of organizational prominence.
 </div>
 </div>
 </div>

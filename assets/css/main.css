@@ -650,6 +650,29 @@ a:hover { color: var(--color-accent-light); }
   line-height: 1.6;
 }
 
+/* ---- Content link underlines ---- */
+/* Underline links in body content surfaces: CV entries, post listings, and article bodies (essays, papers, projects). Excludes navigation, hero buttons, project-card action links, and other styled UI links. */
+
+.cv-entry a,
+.cv-entry__title a,
+.cv-entry__desc a,
+.post-title a,
+.post-excerpt a,
+.article-body a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.cv-entry a:hover,
+.cv-entry__title a:hover,
+.cv-entry__desc a:hover,
+.post-title a:hover,
+.post-excerpt a:hover,
+.article-body a:hover {
+  text-decoration-thickness: 2px;
+}
+
 /* ---- Responsive ---- */
 
 @media (max-width: 768px) {
