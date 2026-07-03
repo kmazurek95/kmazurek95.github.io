@@ -3,7 +3,7 @@ title: "Income Inequality and Redistribution Preferences"
 type: "Multilevel Modeling / Cross-National Analysis"
 summary: "Multilevel analysis of how neighborhood and national inequality contexts shape individual redistribution preferences, using Dutch neighborhood data (CBS) and European Social Survey cross-national data."
 date: 2025-06-01
-weight: 4
+weight: 6
 featured: false
 repo: "https://github.com/kmazurek95/public-attitudes-research"
 dashboard: "https://public-attitudes-research-zcx3tbf4verisz7pavqgzb.streamlit.app/"

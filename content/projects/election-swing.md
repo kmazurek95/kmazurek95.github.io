@@ -3,7 +3,7 @@ title: "2020-2024 County-Level Partisan Swing"
 type: "Electoral Geography / Multilevel Modeling"
 summary: "Multilevel model of the 2020-2024 county-level partisan swing across 3,152 US counties nested in 49 states. 31% of swing variance is between states. Hispanic population share is the strongest predictor of rightward swing."
 date: 2026-03-08
-weight: 2
+weight: 4
 featured: true
 repo: "https://github.com/kmazurek95/us-election-county-swing"
 dashboard: "https://us-election-county-swing.streamlit.app/"
@@ -18,7 +18,7 @@ tags: ["elections", "multilevel-modeling", "electoral-geography", "US-politics"]
 
 ## Role in the Portfolio
 
-This is the US credibility project. It proves I can operate in the American political data ecosystem -- MEDSL, ACS, BLS, five sources merged on FIPS codes -- and produce findings relevant to live political debates. But the ICC finding is what makes it more than a credentials exercise. 31% of swing variance sitting at the state level is a structural finding, not a descriptive one. It's the same analytical logic as the Dutch neighborhoods project, applied to a domain US employers immediately recognize. The thesis proves NLP. The public attitudes project proves multilevel modeling. This one proves US political data competence. And the null cross-level interaction (p=0.416) demonstrates something reviewers respect: I follow the data rather than torturing it into significance.
+This is the US credibility project. It proves I can operate in the American political data ecosystem -- MEDSL, ACS, BLS, five sources merged on FIPS codes -- and produce findings relevant to live political debates. But the ICC finding is what makes it more than a credentials exercise. 31% of swing variance sitting at the state level is a structural finding, not a descriptive one. It's the same analytical logic as the Dutch neighborhoods project, applied to a domain US employers immediately recognize. The thesis proves NLP. The public attitudes project proves multilevel modeling. This one proves US political data competence. And the null cross-level interaction (p=0.48) demonstrates something reviewers respect: I follow the data rather than torturing it into significance.
 
 ## The Question
 
