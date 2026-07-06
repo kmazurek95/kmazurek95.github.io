@@ -4,7 +4,7 @@ layout: "single"
 type: "page"
 ---
 
-I'm a quantitative social scientist who works on the political economy of AI and writes on the political and economic consequences of AI infrastructure. I'm based in Chicago. My background is in comparative political economy and computational methods. I hold an MSc in Social Science Research from the University of Amsterdam and a BA in International Studies and Economics from Macalester College.
+I'm a quantitative social scientist who works on two sides of AI: how it gets measured and evaluated, and how it reshapes economic institutions. I'm based in Chicago. My background is in comparative political economy and computational methods. I hold an MSc in Social Science Research from the University of Amsterdam and a BA in International Studies and Economics from Macalester College.
 
 ## The question
 
@@ -18,7 +18,7 @@ I brought that orientation to my MSc at UvA, where the quantitative toolkit (mul
 
 ## Why I work on this from the inside
 
-Since mid-2024 I have done contract AI evaluation work across several platforms: evaluation rubrics, benchmark design, annotation at scale, quality assurance. This is not a detour from the research. It is applied construct validity. At Tundra Technical Solutions, on assignment at Meta since September 2025, evaluating LLM outputs at scale has taught me how evaluation rubrics actually behave under load: where inter-rater reliability drops, where ambiguous edge cases cluster, how guidelines have to evolve to match model failure modes. At Snorkel AI, designing graduate-level benchmark questions was a measurement-design problem: how do you construct items that discriminate between surface pattern-matching and real reasoning. At Character.AI, designing economics tutoring dialogues meant treating pedagogy as measurement design, with real student misconception patterns as the construct. These are the same questions I study formally.
+Since mid-2024 I have done contract AI evaluation work across several platforms: evaluation rubrics, benchmark design, annotation at scale, quality assurance. This is not a detour from the research. It is applied construct validity. That orientation is now a public piece of research, not only a contract: I audited the DICES-350 safety taxonomy as a measurement instrument and found that it is not unidimensional, that its reliability cannot be established for most categories under conservative criteria, and that its two largest categories, harmful content and unfair bias, are not empirically discriminable (HTMT 0.922). At Tundra Technical Solutions, on assignment at Meta since September 2025, evaluating LLM outputs at scale has taught me how evaluation rubrics actually behave under load: where inter-rater reliability drops, where ambiguous edge cases cluster, how guidelines have to evolve to match model failure modes. At Snorkel AI, designing graduate-level benchmark questions was a measurement-design problem: how do you construct items that discriminate between surface pattern-matching and real reasoning. At Character.AI, designing economics tutoring dialogues meant treating pedagogy as measurement design, with real student misconception patterns as the construct. These are the same questions I study formally.
 ## Contact
 
 kalebmazurek@gmail.com · [GitHub](https://github.com/kmazurek95) · [LinkedIn](https://www.linkedin.com/in/kaleb-mazurek/)

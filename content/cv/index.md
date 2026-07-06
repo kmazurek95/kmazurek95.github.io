@@ -34,11 +34,22 @@ Cum laude. GPA: 3.68. Concentration in Middle East Studies, minor in Economics. 
 
 <div class="cv-entry">
 <div class="cv-entry__header">
+<span class="cv-entry__title">A Measurement Audit of the DICES-350 Safety Taxonomy</span>
+<span class="cv-entry__date">2026</span>
+</div>
+<div class="cv-entry__desc">
+Psychometric audit of a conversational-AI safety taxonomy treated as a measurement instrument: 123 raters, 43,050 ratings, 23 categories. Reliability coefficients with bootstrap CIs, exploratory factor analysis under two correlation estimators, HTMT discriminant validity, and a base-rate decomposition. Findings held separate: not unidimensional; reliability indeterminate for most categories (18 of 23 classify as base-rate artifacts, 0 as definitively reliable); harmful content and unfair bias not empirically discriminable (HTMT 0.922).
+<br><a href="https://github.com/kmazurek95/dices-safety-audit">Repository</a> · <a href="/projects/dices-safety-audit/">Project page</a>
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__header">
 <span class="cv-entry__title">2020-2024 County-Level Partisan Swing Analysis</span>
 <span class="cv-entry__date">2026</span>
 </div>
 <div class="cv-entry__desc">
-Multilevel model of 3,152 US counties nested in 49 states. ICC = 0.305. Hispanic population share as strongest swing predictor. Five data sources (MEDSL, ACS, BLS) merged on FIPS codes. Policy brief, interactive dashboard, findings-first README.
+Multilevel model of 3,152 US counties nested in 49 states. ICC = 0.305. Hispanic population share as strongest swing predictor. Five federal data sources (MEDSL, ACS, BLS LAUS, Census gazetteer, NCHS) integrated on FIPS/state keys. Policy brief, interactive dashboard, findings-first README.
 <br><a href="https://github.com/kmazurek95/us-election-county-swing">Repository</a> · <a href="https://us-election-county-swing.streamlit.app/">Dashboard</a>
 </div>
 </div>
@@ -49,7 +60,7 @@ Multilevel model of 3,152 US counties nested in 49 states. ICC = 0.305. Hispanic
 <span class="cv-entry__date">2023–2025</span>
 </div>
 <div class="cv-entry__desc">
-NLP pipeline: 78K congressional documents, TF-IDF + LogReg classifier (F1 = 0.91, kappa = 0.82), 53,892 mentions across 1,903 organizations. SHAP attribution, multilevel regression, Streamlit dashboard. Full pipeline rebuilt post-thesis with CI/CD testing.
+NLP pipeline: 78K congressional documents, TF-IDF + LogReg classifier (F1 = 0.91, kappa = 0.82), 53,892 mentions across 2,260 organizations. SHAP attribution, multilevel regression, Streamlit dashboard. Full pipeline rebuilt post-thesis with CI/CD testing.
 <br><a href="https://github.com/kmazurek95/ThesisPipelineRework">Repository</a> · <a href="https://thesispipelinerework-emngd3hbxghtkfzbe9secw.streamlit.app/">Dashboard</a>
 </div>
 </div>
@@ -60,7 +71,7 @@ NLP pipeline: 78K congressional documents, TF-IDF + LogReg classifier (F1 = 0.91
 <span class="cv-entry__date">2025</span>
 </div>
 <div class="cv-entry__desc">
-Cross-national multilevel analysis using European Social Survey data (29 countries). Dual-DV design: redistribution preferences drift gradually under inequality shocks while institutional trust tips through a self-reinforcing feedback loop. AI exposure measured via Felten AIOE scores aggregated with Eurostat LFS weights. Null direct AI exposure effect (p = 0.857) motivates institutional conditioning argument.
+Cross-national multilevel analysis using European Social Survey data (ESS Round 9, 2018; 28 countries). Dual-DV design: redistribution preferences drift gradually under inequality shocks while institutional trust tips through a self-reinforcing feedback loop. AI exposure measured via Felten AIOE scores aggregated with Eurostat LFS weights. Null direct AI exposure effect (p = 0.857) motivates institutional conditioning argument.
 <br><a href="https://github.com/kmazurek95/ess-redistribution-analysis">Repository</a>
 </div>
 </div>
@@ -120,7 +131,7 @@ Built and maintained political datasets covering elections, redistricting, and o
 </div>
 <div class="cv-entry__org">University of Amsterdam</div>
 <div class="cv-entry__desc">
-MSc thesis project on interest group prominence in US Congressional debates, supervised by Dr. Joost Berkhout at the Amsterdam Institute for Social Science Research (AISSR). Thesis grade: 8.0/10. Built a labeled dataset of 24,000+ organizational mentions extracted from 78,000+ Congressional Record documents across the 114th and 115th Congresses using custom Python pipelines and the GovInfo API. Trained and validated a supervised text classifier (SVM with TF-IDF features; F1 = 0.79) to distinguish substantive from procedural mentions of advocacy organizations in legislative speech. Estimated multilevel generalized linear mixed models to assess how organizational traits, policy salience, and legislator characteristics shape the prominence of interest groups on the congressional floor. Integrated external data from the Washington Representatives Study, Google Trends API, and ProPublica Congress API.
+MSc thesis project on interest group prominence in US Congressional debates, supervised by Dr. Joost Berkhout at the Amsterdam Institute for Social Science Research (AISSR). Thesis grade: 8.0/10. Built a corpus of 24,000+ organizational mentions (hand-labeled training set of 1,000) extracted from 78,000+ Congressional Record documents across the 114th and 115th Congresses using custom Python pipelines and the GovInfo API. Trained and validated a supervised text classifier (SVM with count-vectorizer features; per-class F1 = 0.79 / 0.65, accuracy ≈ 81%) to distinguish substantive from procedural mentions of advocacy organizations in legislative speech. Estimated multilevel generalized linear mixed models to assess how organizational traits, policy salience, and legislator characteristics shape the prominence of interest groups on the congressional floor. Integrated external data from the Washington Representatives Study, Google Trends API, and ProPublica Congress API.
 </div>
 </div>
 

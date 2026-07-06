@@ -1,13 +1,13 @@
 ---
 title: "Redistribution Preferences and Institutional Trust Across Europe"
 type: "Cross-National Analysis / Dual-DV Design"
-summary: "Multilevel analysis of redistribution preferences and political trust across 29 European countries using ESS data. Key finding: redistribution preferences drift gradually under inequality shocks, while institutional trust tips through a self-reinforcing feedback loop."
+summary: "Multilevel analysis of redistribution preferences and political trust across 28 European countries using ESS data. Key finding: redistribution preferences drift gradually under inequality shocks, while institutional trust tips through a self-reinforcing feedback loop."
 date: 2025-08-01
 weight: 5
 featured: true
 repo: "https://github.com/kmazurek95/ess-redistribution-analysis"
 stats:
-  - "29 countries"
+  - "28 countries"
   - "ESS Round 9"
   - "Dual-DV design"
   - "AI exposure scores"
@@ -32,7 +32,7 @@ Institutional trust shows a different pattern. The null direct effect of AI expo
 
 ## Methodology
 
-Cross-national multilevel modeling using European Social Survey Round 9 data across 29 countries. AI exposure measured using Felten et al. AIOE scores aggregated via Eurostat Labour Force Survey occupational weights. Two dependent variables (redistribution preferences and institutional trust) modeled separately to compare response dynamics.
+Cross-national multilevel modeling using European Social Survey Round 9 data (28 countries); after excluding Slovakia, the redistribution model covers 26 countries and the trust model 25. AI exposure measured using Felten et al. AIOE scores aggregated via Eurostat Labour Force Survey occupational weights. Two dependent variables (redistribution preferences and institutional trust) modeled separately to compare response dynamics.
 
 ## Links
 

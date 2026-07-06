@@ -18,7 +18,7 @@ tags: ["elections", "multilevel-modeling", "electoral-geography", "US-politics"]
 
 ## Role in the Portfolio
 
-This is the US credibility project. It proves I can operate in the American political data ecosystem -- MEDSL, ACS, BLS, five sources merged on FIPS codes -- and produce findings relevant to live political debates. But the ICC finding is what makes it more than a credentials exercise. 31% of swing variance sitting at the state level is a structural finding, not a descriptive one. It's the same analytical logic as the Dutch neighborhoods project, applied to a domain US employers immediately recognize. The thesis proves NLP. The public attitudes project proves multilevel modeling. This one proves US political data competence. And the null cross-level interaction (p=0.48) demonstrates something reviewers respect: I follow the data rather than torturing it into significance.
+This is the US credibility project. It proves I can operate in the American political data ecosystem -- MEDSL, ACS, BLS, Census gazetteer, and NCHS, five federal sources integrated on FIPS and state keys -- and produce findings relevant to live political debates. But the ICC finding is what makes it more than a credentials exercise. 31% of swing variance sitting at the state level is a structural finding, not a descriptive one. It's the same analytical logic as the Dutch neighborhoods project, applied to a domain US employers immediately recognize. The thesis proves NLP. The public attitudes project proves multilevel modeling. This one proves US political data competence. And the null cross-level interaction (p=0.48) demonstrates something reviewers respect: I follow the data rather than torturing it into significance.
 
 ## The Question
 
@@ -42,12 +42,14 @@ The null cross-level interaction is an honest finding. Reporting it demonstrates
 
 ## Data Pipeline
 
-Five sources merged on FIPS codes:
+Five federal data sources, integrated on FIPS at the county level and on state where the source is state-level:
 - **MEDSL**: MIT Election Data + Science Lab county-level returns (2020, 2024)
 - **ACS 5-year**: Education, income, employment, Hispanic share, race, population, age
-- **BLS**: State-level unemployment
-- **Census**: Population density
-- **Derived**: Two-party vote share calculation, swing computation
+- **BLS LAUS**: State-level unemployment
+- **Census 2024 gazetteer**: County land area (used to derive population density)
+- **NCHS**: Urban-rural classification codes
+
+(Two-party vote share and the swing itself are computed from the MEDSL returns, not separate data sources.)
 
 ## Policy Brief
 
