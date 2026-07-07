@@ -3,3 +3,9 @@ resources/
 .hugo_build.lock
 node_modules/
 .DS_Store
+
+# Local content-editing source (hand-synced into content/; never published)
+CONTENT.md
+CONTENT.md.bak
+
+.Rhistory
