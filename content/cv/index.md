@@ -49,7 +49,7 @@ Psychometric audit of a conversational-AI safety taxonomy treated as a measureme
 <span class="cv-entry__date">2026</span>
 </div>
 <div class="cv-entry__desc">
-Multilevel model of 3,152 US counties nested in 49 states. ICC = 0.305. Hispanic population share as strongest swing predictor. Five federal data sources (MEDSL, ACS, BLS LAUS, Census gazetteer, NCHS) integrated on FIPS/state keys. Policy brief, interactive dashboard, findings-first README.
+Multilevel model of 3,101 US counties nested in 49 states and DC. ICC = 0.305. Hispanic population share as strongest swing predictor. Five federal data sources (MEDSL, ACS, BLS LAUS, Census gazetteer, NCHS) integrated on FIPS/state keys. Policy brief, interactive dashboard, findings-first README.
 <br><a href="https://github.com/kmazurek95/us-election-county-swing">Repository</a> · <a href="https://us-election-county-swing.streamlit.app/">Dashboard</a>
 </div>
 </div>
@@ -60,7 +60,7 @@ Multilevel model of 3,152 US counties nested in 49 states. ICC = 0.305. Hispanic
 <span class="cv-entry__date">2023–2025</span>
 </div>
 <div class="cv-entry__desc">
-NLP pipeline: 78K congressional documents, TF-IDF + LogReg classifier (F1 = 0.91, kappa = 0.82), 53,892 mentions across 2,260 organizations. SHAP attribution, multilevel regression, Streamlit dashboard. Full pipeline rebuilt post-thesis with CI/CD testing.
+NLP pipeline: 78K congressional documents, TF-IDF + LogReg classifier (test F1 = 0.91; classifier-human agreement kappa = 0.82), 53,892 mentions across 2,260 organizations. SHAP attribution, multilevel regression, Streamlit dashboard. Full pipeline rebuilt post-thesis with CI/CD testing.
 <br><a href="https://github.com/kmazurek95/ThesisPipelineRework">Repository</a> · <a href="https://thesispipelinerework-emngd3hbxghtkfzbe9secw.streamlit.app/">Dashboard</a>
 </div>
 </div>
@@ -71,7 +71,7 @@ NLP pipeline: 78K congressional documents, TF-IDF + LogReg classifier (F1 = 0.91
 <span class="cv-entry__date">2025</span>
 </div>
 <div class="cv-entry__desc">
-Cross-national multilevel analysis using European Social Survey data (ESS Round 9, 2018; 28 countries). Dual-DV design: redistribution preferences drift gradually under inequality shocks while institutional trust tips through a self-reinforcing feedback loop. AI exposure measured via Felten AIOE scores aggregated with Eurostat LFS weights. Null direct AI exposure effect (p = 0.857) motivates institutional conditioning argument.
+Cross-national multilevel analysis using European Social Survey data (ESS Round 9, 2018; 28 countries). Dual-DV design: redistribution preferences drift gradually under inequality shocks, while in agent-based simulation institutional trust tips through a self-reinforcing feedback loop. AI exposure measured via Felten AIOE scores aggregated with Eurostat LFS weights. Null direct AI exposure effect (p = 0.857) motivates institutional conditioning argument.
 <br><a href="https://github.com/kmazurek95/ess-redistribution-analysis">Repository</a>
 </div>
 </div>
@@ -98,18 +98,18 @@ Multilevel analysis of 4,748 individuals across 1,572 Dutch neighborhoods (CBS d
 </div>
 <div class="cv-entry__org">Tundra Technical Solutions · Contract</div>
 <div class="cv-entry__desc">
-Evaluate AI-generated responses across Meta's LLM products, maintaining a 95/100 quality score on consistency and accuracy metrics. Identify systematic model failure patterns and translate findings into revised evaluation guidelines used across rating cycles. Collaborate with PMs and cross-functional raters to operationalize ambiguous content policies into concrete, reproducible annotation criteria. Process approximately 450 evaluations weekly while documenting edge cases that inform guideline development.
+Evaluate AI-generated responses across Meta's LLM products. Identify systematic model failure patterns and translate findings into revised evaluation guidelines used across rating cycles. Collaborate with PMs and cross-functional raters to operationalize ambiguous content policies into concrete, reproducible annotation criteria. Document edge cases that inform guideline development.
 </div>
 </div>
 
 <div class="cv-entry">
 <div class="cv-entry__header">
 <span class="cv-entry__title">AI Evaluation Researcher (Contract)</span>
-<span class="cv-entry__date">Jun 2024 – Oct 2025</span>
+<span class="cv-entry__date">Jun 2024 – Jun 2026</span>
 </div>
-<div class="cv-entry__org">Mercor, Snorkel AI, Character.AI, RWS Group · Freelance</div>
+<div class="cv-entry__org">LinkedIn, Mercor, Snorkel AI, Character.AI, RWS Group · Freelance</div>
 <div class="cv-entry__desc">
-Contract work evaluating and training AI models across several platforms. Snorkel AI (Jan–May 2025): Authored 150 graduate-level social science benchmark questions designed to expose model reasoning gaps (≤20% accuracy threshold); conducted quality review on 1,000+ peer questions for difficulty calibration and rubric alignment. Mercor (Jun 2024–Sep 2025): Designed and applied multi-dimensional evaluation rubric (relevance, authority, production quality) for Reels content; implemented tiered failure scoring system (0–2 scale) with corrective feedback to guide training priorities. Character.AI (Jul–Sep 2024): Created training dialogues for an economics tutoring model, focusing on pedagogical clarity and factual accuracy in conversational explanations. RWS Group (Jul–Dec 2024): Evaluated AI search responses against detailed quality criteria, providing structured feedback to improve relevance and accuracy.
+Contract work evaluating and training AI models across several platforms. LinkedIn (Jun 2026): QA analyst on an AI evaluation benchmark, verifying whether AI-generated answers to document-grounded questions were supported by their cited source evidence; worked as both annotator and reviewer, auditing submissions flagged by an automated evaluation pass and correcting citation and evidence-completeness errors before sign-off. Mercor (Aug–Sep 2025): Designed and applied multi-dimensional evaluation rubric (relevance, authority, production quality) for short-form video content; implemented tiered failure scoring system (0–2 scale) with corrective feedback to guide training priorities. Snorkel AI (Jan–May 2025): Authored 150 graduate-level social science benchmark questions designed to expose model reasoning gaps (≤20% accuracy threshold); conducted quality review on 1,000+ peer questions for difficulty calibration and rubric alignment. RWS Group (Jul–Dec 2024): Evaluated AI search responses against detailed quality criteria, providing structured feedback to improve relevance and accuracy. Character.AI (Jul–Sep 2024): Created training dialogues for an economics tutoring model, focusing on pedagogical clarity and factual accuracy in conversational explanations.
 </div>
 </div>
 
@@ -142,7 +142,7 @@ MSc thesis project on interest group prominence in US Congressional debates, sup
 </div>
 <div class="cv-entry__org">Amsterdam Institute of Social Science Research (AISSR) · Internship</div>
 <div class="cv-entry__desc">
-Supervisor: Dr. Wouter Schakel. Conducted an independent research project asking whether the income composition of someone's neighborhood shapes their preferences for redistribution. Neighborhood context accounts for about 3.4% of the variance in attitudes, a substantively important null finding that points toward institutional rather than geographic explanations. Linked Dutch survey microdata (SCoRE 2017) with CBS administrative statistics across three geographic levels (neighborhoods, districts, municipalities), building a hierarchical dataset of 4,748 respondents in 1,572 neighborhoods. Ran 10+ multilevel model specifications with cross-level interactions in both Python and R, testing whether local income inequality, neighborhood affluence, and relative deprivation predict redistribution support.
+Supervisor: Dr. Wouter Schakel. Conducted an independent research project asking whether the income composition of someone's neighborhood shapes their preferences for redistribution. Neighborhood context accounts for about 3.4% of the variance in attitudes, a null finding that points toward institutional rather than geographic explanations. Linked Dutch survey microdata (SCoRE 2017) with CBS administrative statistics across three geographic levels (neighborhoods, districts, municipalities), building a hierarchical dataset of 4,748 respondents in 1,572 neighborhoods. Ran 10+ multilevel model specifications with cross-level interactions in both Python and R, testing whether local income inequality, neighborhood affluence, and relative deprivation predict redistribution support.
 </div>
 </div>
 
@@ -201,7 +201,7 @@ Grade: 8.0/10. Advisor: Dr. Joost Berkhout. NLP pipeline across 78,000 Congressi
 <span class="cv-entry__date">Independent Policy Brief, March 2026</span>
 </div>
 <div class="cv-entry__desc">
-Multilevel analysis of 3,152 US counties nested in 49 states; 31% of swing variance sits at the state level.
+Multilevel analysis of 3,101 US counties nested in 49 states and DC; 31% of swing variance sits at the state level.
 </div>
 </div>
 

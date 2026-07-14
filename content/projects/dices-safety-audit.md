@@ -14,19 +14,15 @@ stats:
 tags: ["AI-evaluation", "psychometrics", "measurement", "reliability", "factor-analysis"]
 ---
 
-## Role in the Portfolio
-
-This is the anchor of my AI evaluation and measurement work, and the project that connects it to the political economy side. Most safety evaluation reports a model's harm rate against human labels and never asks whether the labels themselves hold up as a measurement instrument. This one does. It takes a published safety taxonomy, treats it as a survey scale, and runs the audit you would run on any scale before trusting a score built on it.
-
-For evaluation work, it brings a social scientist's measurement toolkit to an AI safety scale: construct validity, inter-rater reliability under heavy skew, factor structure, and the judgment to say "cannot be established" when that is the honest answer. That taxonomy is also a governance object: it decides what counts as "harmful content" versus "unfair bias" and whose judgments define harm, so what it can and cannot measure sets the ceiling on any safety standard built on it.
-
 ## The Question
 
-Do the categories of a conversational-AI safety taxonomy behave as reliable, dimensionally coherent, and empirically distinct constructs, or do they collapse under measurement? The data is DICES-350: 350 multi-turn adversarial conversations, each rated by the same panel of 123 crowd raters on a 23-item safety taxonomy (43,050 ratings), plus an expert gold layer.
+Most safety evaluation reports a model's harm rate against human labels and never asks whether the labels themselves hold up as a measurement instrument. This audit does: it treats a published safety taxonomy as a survey scale and asks whether its categories behave as reliable, dimensionally coherent, and empirically distinct constructs, or collapse under measurement. The data is DICES-350: 350 multi-turn adversarial conversations, each rated by the same panel of 123 crowd raters on a 23-item safety taxonomy (43,050 ratings), plus an expert gold layer.
+
+The taxonomy is also a governance object: it decides what counts as "harmful content" versus "unfair bias" and whose judgments define harm, so what it can and cannot measure sets the ceiling on any safety standard built on it.
 
 ## What I Did
 
-Four standard psychometric methods, each taken only as far as the evidence supports.
+Four standard psychometric methods.
 
 1. **Reliability.** Three agreement coefficients per category (Fleiss' kappa, observed agreement, Gwet's AC1), item-bootstrap confidence intervals, and a classification that keys on the interval bounds rather than the point estimates. This separates genuine disagreement from the kappa paradox, where skewed prevalence deflates kappa even when raters almost always agree.
 2. **Dimensionality.** Exploratory factor analysis under both Pearson and tetrachoric correlations, with parallel analysis fixing the factor count before the loadings are inspected.
@@ -39,11 +35,11 @@ Four standard psychometric methods, each taken only as far as the evidence suppo
 The taxonomy is **not unidimensional** (more than one factor under either correlation estimator); its **reliability cannot be established for most categories** under conservative, interval-based criteria (18 of 23 categories classify as base-rate artifacts, 0 as definitively reliable); and its two largest categories, **harmful content and unfair bias, are not empirically discriminable** (HTMT 0.922 under the sound tetrachoric estimator).
 {{< /finding >}}
 
-One mechanism drives all three: base-rate sparsity from rare, inconsistently applied categories. The failure is not uniform. Political affiliation coheres as its own construct, carrying the highest between-conversation signal in the taxonomy (ICC1 0.377) and loading as its own factor -- a dimensionality property, not a kappa artifact. Two findings were revised on evidence when pre-registered robustness checks contradicted the initial reading, both fixed before the final analysis ran, so the revisions are consequences of the method rather than post-hoc adjustments.
+One mechanism drives all three: base-rate sparsity from rare, inconsistently applied categories. The failure is not uniform. Political affiliation coheres as its own construct, carrying the highest between-conversation signal in the taxonomy (ICC1 0.377) and loading as its own factor, a dimensionality property rather than a kappa artifact. Two findings were revised when pre-registered robustness checks contradicted the initial reading, both fixed before the final analysis ran.
 
 ## Methodology Notes
 
-The hard part is knowing how far to push each claim, not running the statistics. "Reliability cannot be established" is a statement of indeterminacy, not a demonstrated failure, and keeping those two apart is the whole point. The classification keys on confidence-interval bounds, so a category only earns a definitive label when its entire interval sits on one side of the threshold. Borrowed cutoffs (Landis-Koch for kappa, Henseler for HTMT) sit next to the raw coefficients so no threshold is doing hidden work. The modules regenerate every table from source; the plots are checked in as static artifacts. Same measurement thinking as [the congressional-speech pipeline](/projects/thesis-pipeline/) and the argument in ["What Political Science Can Teach AI Evaluation"](/writing/essays/political-science-ai-evaluation/).
+"Reliability cannot be established" is a statement of indeterminacy, not a demonstrated failure. The classification keys on confidence-interval bounds, so a category only earns a definitive label when its entire interval sits on one side of the threshold. Borrowed cutoffs (Landis-Koch for kappa, Henseler for HTMT) sit next to the raw coefficients so no threshold is doing hidden work. The modules regenerate every table from source; the plots are checked in as static artifacts. Same measurement thinking as [the congressional-speech pipeline](/projects/thesis-pipeline/) and the argument in ["What Political Science Can Teach AI Evaluation"](/writing/essays/political-science-ai-evaluation/).
 
 ## Links
 

@@ -1,7 +1,7 @@
 ---
 title: "Institutional Configurations and the Social Politics of AI"
 type: "Comparative Political Economy / Two-Dimensional Typology"
-summary: "Two-dimensional typology of 29 OECD countries along AI task-profile and labor market dualization axes. The first signature contribution of the research program. Working Paper v1.0, April 2026."
+summary: "Two-dimensional typology of 29 OECD countries along AI task-profile and labor market dualization axes. Working Paper v1.0, April 2026."
 date: 2026-04-17
 weight: 2
 featured: true
@@ -15,13 +15,9 @@ stats:
 tags: ["typology", "comparative-political-economy", "welfare-states", "AI", "OECD"]
 ---
 
-## Role in the Portfolio
-
-This is the first signature contribution of the research program. The other four projects establish methodological capability and the empirical pattern that institutional context outperforms individual and local conditions at every scale tested. This paper formalizes the institutional argument into a typology that generates testable cross-level hypotheses about how AI exposure interacts with welfare-state configurations to shape political outcomes. Where the other projects are infrastructure for the argument, this paper is the synthesis output.
-
 ## The Question
 
-Why do countries with similar levels of AI exposure produce such different political responses? Existing welfare-regime classifications miss two institutional dimensions that do the explanatory work: the type of AI effect a workforce faces (displacement versus complementarity), and how the costs of that effect are distributed across the labor market (broadly shared versus concentrated on outsiders).
+Why do countries with similar levels of AI exposure produce such different political responses? Existing welfare-regime classifications miss two institutional dimensions that do the explanatory work: the type of AI effect a workforce faces (displacement versus complementarity), and how the costs of that effect are distributed across the labor market (broadly shared versus concentrated on outsiders). The paper formalizes the empirical pattern documented across the [research program](/research-program/) into a typology built to generate testable cross-level hypotheses.
 
 ## What I Found
 

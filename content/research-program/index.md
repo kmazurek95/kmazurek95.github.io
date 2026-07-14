@@ -12,15 +12,15 @@ They meet at one idea: measurement is not neutral. How we choose to quantify AI 
 
 ## Measurement and evaluation of AI
 
-The question here is narrow and load-bearing: before you trust a score, can you trust the instrument that produced it? A model's measured harm rate is only as good as the labels it is scored against, and a category annotators cannot apply consistently cannot support a trustworthy number. So I treat evaluation schemes as measurement instruments and run the audit a psychometrician runs on any survey scale: reliability, dimensionality, discriminant validity, and honest uncertainty.
+The question here is narrow and load-bearing: before you trust a score, can you trust the instrument that produced it? A model's measured harm rate is only as good as the labels it is scored against, and a category annotators cannot apply consistently cannot support a trustworthy number. So I treat evaluation schemes as measurement instruments and run the audit a psychometrician runs on any survey scale: reliability, dimensionality, discriminant validity, and the uncertainty around each.
 
 ### [A Measurement Audit of the DICES-350 Safety Taxonomy](/projects/dices-safety-audit/)
 
-The flagship. I audited a published conversational-AI safety taxonomy at full rater power, 123 raters and 43,050 ratings, and found three problems that have to be kept separate: it is not unidimensional, its reliability cannot be established for most categories under conservative criteria (18 of 23 are base-rate artifacts), and its two largest categories, harmful content and unfair bias, are not empirically discriminable (HTMT 0.922). No prior work applies a heterotrait-monotrait discriminant test to the DICES taxonomy. This is the measurement audit as a finished piece of work, not a transferable skill I am asking you to take on faith.
+I audited a published conversational-AI safety taxonomy at full rater power, 123 raters and 43,050 ratings, and found three problems that have to be kept separate: it is not unidimensional, its reliability cannot be established for most categories under conservative criteria (18 of 23 are base-rate artifacts), and its two largest categories, harmful content and unfair bias, are not empirically discriminable (HTMT 0.922). No prior work applies a heterotrait-monotrait discriminant test to the DICES taxonomy.
 
 ### [Interest Group Prominence in Congressional Speech](/projects/thesis-pipeline/)
 
-The foundation. Before AI, the same measurement-design problem showed up in political text: how do you operationalize "prominence," build a classifier for it, and validate it (F1 = 0.91, Cohen's kappa = 0.82) across 78,000 speeches? Construct definition, annotation reliability, threshold optimization -- the exact skill set an evaluation audit runs on. I wrote about the transfer in ["What Political Science Can Teach AI Evaluation"](/writing/essays/political-science-ai-evaluation/).
+Before AI, the same measurement-design problem showed up in political text: how do you operationalize "prominence" and build a defensible classifier for it across 78,000 Congressional Record documents? The post-graduation rebuild of the pipeline reached a test F1 of 0.91, with classifier-human agreement at Cohen's kappa = 0.82. Construct definition, annotation reliability, threshold optimization: the skill set an evaluation audit runs on. I wrote about the transfer in ["What Political Science Can Teach AI Evaluation"](/writing/essays/political-science-ai-evaluation/).
 
 ## Political economy of AI
 
@@ -34,22 +34,22 @@ AI is where this track is heading, because it is a multi-channel distributional 
 
 ### [Institutional Configurations and the Social Politics of AI](/projects/typology-paper/)
 
-The first signature contribution. A two-dimensional typology of 29 OECD countries along AI task-profile and labor-market dualization axes. V1 sets the theoretical structure and an aggregate mapping; v2, in preparation, integrates OECD Risks that Matter microdata for individual-level tests of the regime × exposure interaction.
+A two-dimensional typology of 29 OECD countries along AI task-profile and labor-market dualization axes, formalizing the institutional argument into testable cross-level hypotheses. V1 sets the theoretical structure and an aggregate mapping; v2, in preparation, integrates OECD Risks that Matter microdata for individual-level tests of the regime × exposure interaction.
 
 ### [Redistribution Preferences and Institutional Trust Across Europe](/projects/ess-analysis/)
 
-Where the distributional-politics framing became tractable. Redistribution preferences drift gradually under inequality shocks; institutional trust tips through a self-reinforcing feedback loop. If AI-driven disruption is a structural shock, the political crisis may not be a fight over who gets what -- it may be a legitimacy collapse.
+Redistribution preferences drift gradually under inequality shocks; in agent-based simulations calibrated from the model coefficients, institutional trust tips through a self-reinforcing feedback loop. If AI-driven disruption is a structural shock, the political crisis may not be a fight over who gets what; it may be a legitimacy collapse.
 
 ### [2020-2024 County-Level Partisan Swing](/projects/election-swing/)
 
-The US credibility project. A state-level ICC of 0.305 puts roughly a third of county-level swing variance at the state level. The null cross-level interaction (education × state unemployment, *p* = 0.48) narrows the search space instead of confirming the hypothesis. I report what the data says.
+A state-level ICC of 0.305 puts roughly a third of county-level swing variance at the state level. The null cross-level interaction (education × state unemployment, *p* = 0.48) narrows the search space instead of confirming the hypothesis.
 
 ### [Income Inequality and Redistribution Preferences](/projects/public-attitudes/)
 
-The empirical bridge. The small neighborhood-level ICC (3.4%) was itself the finding; it pushed the question toward what scale contextual effects actually operate at, and the cross-national extension answered it: country-level institutions explain more than neighborhoods do.
+The small neighborhood-level ICC (3.4%) was itself the finding; it pushed the question toward what scale contextual effects actually operate at, and the cross-national extension answered it: country-level institutions explain more than neighborhoods do.
 
 ## Where this is heading
 
 Both tracks have live work. On the measurement side, the DICES audit is a template I can point at other safety taxonomies and evaluation rubrics, where the same base-rate and discriminant-validity problems are likely to recur. On the political-economy side, v2 of the typology paper moves from aggregate mapping to individual-level estimation on OECD Risks that Matter microdata, and a synthesis paper on welfare-state response to AI-related distributional pressure is in development.
 
-What I am not yet claiming. The political-economy portfolio shows that institutional context moderates how distributional shocks translate into political outcomes; it does not yet identify a causal mechanism linking specific AI exposure to specific institutional drift. The measurement work shows that one widely-used safety taxonomy cannot be calibrated at full rater power; it does not claim every evaluation instrument fails the same way. Testing both is the work ahead. I report what the data says, including when it does not yet say what I would prefer it said.
+The political-economy portfolio shows that institutional context moderates how distributional shocks translate into political outcomes; it does not yet identify a causal mechanism linking specific AI exposure to specific institutional drift. The measurement work shows that one widely used safety taxonomy cannot be calibrated at full rater power; it does not claim every evaluation instrument fails the same way. Testing both is the work ahead.

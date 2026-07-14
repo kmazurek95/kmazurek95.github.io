@@ -7,5 +7,6 @@ node_modules/
 # Local content-editing source (hand-synced into content/; never published)
 CONTENT.md
 CONTENT.md.bak
+CONTENT.archive-*.md
 
 .Rhistory

@@ -9,7 +9,7 @@ repo: "https://github.com/kmazurek95/us-election-county-swing"
 dashboard: "https://us-election-county-swing.streamlit.app/"
 related_project: "/projects/election-swing/"
 authors: ["Kaleb Mazurek"]
-summary: "Three-page brief arguing that campaign and advocacy analysis of the 2024 election misses nearly a third of the swing story by focusing on county demographics without modeling state-level context. Based on a multilevel analysis of 3,152 counties nested in 49 states."
+summary: "Three-page brief arguing that campaign and advocacy analysis of the 2024 election misses nearly a third of the swing story by focusing on county demographics without modeling state-level context. Based on a multilevel analysis of 3,101 counties nested in 49 states and DC."
 tags: ["Policy", "Quant", "Political Economy"]
 weight: 1
 ---
@@ -20,15 +20,15 @@ weight: 1
 
 ---
 
-Post-election analysis of the 2024 partisan swing has focused heavily on county-level demographic change: Hispanic shifts, education gradients, rural deepening, college-town stability. These patterns are real. But a multilevel model of 3,152 counties nested in 49 states shows that roughly 31 percent of county-level swing variance sits at the state level, not the county level. The headline implication: campaigns, advocacy organizations, and researchers optimizing at the county level without accounting for state-level context are missing nearly a third of the explanatory story.
+Post-election analysis of the 2024 partisan swing has focused heavily on county-level demographic change: Hispanic shifts, education gradients, rural deepening, college-town stability. These patterns are real. But a multilevel model of 3,101 counties nested in 49 states and DC shows that roughly 31 percent of county-level swing variance sits at the state level, not the county level. The headline implication: campaigns, advocacy organizations, and researchers optimizing at the county level without accounting for state-level context are missing nearly a third of the explanatory story.
 
 ## Key findings
 
 - **State-level forces explain 31% of county-level swing variance** (intraclass correlation = 0.305). Counties swung more similarly to other counties in the same state than to demographically comparable counties in other states. State media environments, campaign resource allocation, gubernatorial politics, and state policy context do substantial explanatory work that county-level analysis alone cannot see.
 
-- **Hispanic population share is the single strongest county-level predictor of rightward swing.** A 10-percentage-point increase in Hispanic share predicted 0.46 additional points of Republican swing (*p* < 10⁻⁷¹), driven by South Texas, the Florida I-4 corridor, and Southern California. The finding speaks directly to the most-debated dynamic of the 2024 cycle.
+- **Hispanic population share is the single strongest county-level predictor of rightward swing.** A 10-percentage-point increase in Hispanic share predicted 0.46 additional points of Republican swing (*p* < 0.001), driven by South Texas, the Florida I-4 corridor, and Southern California. The finding speaks directly to the most-debated dynamic of the 2024 cycle.
 
-- **Education polarization varies meaningfully across states, but not because of state economic conditions.** The random slope for college share is highly significant (LR test *p* < 10⁻¹⁶), confirming that education's effect on swing differs across states. But the cross-level interaction with state-level unemployment change is null (*p* = 0.48). Whatever drives state-by-state variation in the education gradient, local economic conditions are not it.
+- **Education polarization varies meaningfully across states, but not because of state economic conditions.** The random slope for college share is highly significant (LR test χ² = 72.4, *p* < 0.001), confirming that education's effect on swing differs across states. But the cross-level interaction with state-level unemployment change is null (*p* = 0.48). Whatever drives state-by-state variation in the education gradient, local economic conditions are not it.
 
 ## What this means for practice
 
@@ -38,7 +38,7 @@ For research and policy analysis, the null cross-level interaction on education-
 
 ## Methodology
 
-Multilevel model of 3,152 US counties nested in 49 states. Five data sources merged on FIPS codes: MEDSL county-level returns (2020, 2024), American Community Survey 5-year estimates (demographics), Bureau of Labor Statistics (state unemployment), Census population density, and derived two-party vote share. Random intercept and random slope specifications tested; cross-level interactions estimated for education and economic conditions. Full replication code, model diagnostics, and robustness checks are available in the [GitHub repository](https://github.com/kmazurek95/us-election-county-swing).
+Multilevel model of 3,101 US counties nested in 49 states and DC. Five data sources merged on FIPS codes: MEDSL county-level returns (2020, 2024), American Community Survey 5-year estimates (demographics), Bureau of Labor Statistics (state unemployment), Census population density, and derived two-party vote share. Random intercept and random slope specifications tested; cross-level interactions estimated for education and economic conditions. Full replication code, model diagnostics, and robustness checks are available in the [GitHub repository](https://github.com/kmazurek95/us-election-county-swing).
 
 ## Related work
 

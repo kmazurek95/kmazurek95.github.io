@@ -2,7 +2,7 @@
 title: "What Political Science Can Teach AI Evaluation"
 date: 2026-03-05
 type: "Essay"
-originally_published_url: "https://www.linkedin.com/in/kaleb-mazurek/"
+originally_published_url: "https://www.linkedin.com/in/kaleb-mazurek-46a011b6/"
 originally_published_date: "2026-03-06"
 originally_published_venue: "LinkedIn"
 summary: "Measurement validity, inter-rater reliability, construct validity, sampling design: the methodological discipline the social sciences have built for a century applies directly to how AI evaluation pipelines should be designed. What the field needs is more measurement thinkers."
@@ -10,7 +10,7 @@ tags: ["AI Evaluation", "Quant"]
 weight: 6
 ---
 
-*Originally published on [LinkedIn](https://www.linkedin.com/in/kaleb-mazurek/), March 6, 2026. The full version lives here; the site is the canonical home.*
+*Originally published on [LinkedIn](https://www.linkedin.com/in/kaleb-mazurek-46a011b6/), March 6, 2026. The full version lives here; the site is the canonical home.*
 
 ---
 
