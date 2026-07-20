@@ -131,7 +131,7 @@ Built and maintained political datasets covering elections, redistricting, and o
 </div>
 <div class="cv-entry__org">University of Amsterdam</div>
 <div class="cv-entry__desc">
-MSc thesis project on interest group prominence in US Congressional debates, supervised by Dr. Joost Berkhout at the Amsterdam Institute for Social Science Research (AISSR). Thesis grade: 8.0/10. Built a corpus of 24,000+ organizational mentions (hand-labeled training set of 1,000) extracted from 78,000+ Congressional Record documents across the 114th and 115th Congresses using custom Python pipelines and the GovInfo API. Trained and validated a supervised text classifier (SVM with count-vectorizer features; per-class F1 = 0.79 / 0.65, accuracy ≈ 81%) to distinguish substantive from procedural mentions of advocacy organizations in legislative speech. Estimated multilevel generalized linear mixed models to assess how organizational traits, policy salience, and legislator characteristics shape the prominence of interest groups on the congressional floor. Integrated external data from the Washington Representatives Study, Google Trends API, and ProPublica Congress API.
+MSc thesis project on interest group prominence in US Congressional debates, supervised by Dr. Joost Berkhout at the Amsterdam Institute for Social Science Research (AISSR). Thesis grade: 8.0/10. Built a corpus of 24,000+ organizational mentions (hand-labeled training set of 1,000) extracted from 78,000+ Congressional Record documents across the 114th and 115th Congresses using custom Python pipelines and the GovInfo API. Trained and validated a supervised text classifier (Multinomial Naive Bayes with TF-IDF features; F1 ≈ 0.73) to distinguish substantive from procedural mentions of advocacy organizations in legislative speech. Estimated multilevel generalized linear mixed models to assess how organizational traits, policy salience, and legislator characteristics shape the prominence of interest groups on the congressional floor. Integrated external data from the Washington Representatives Study, Google Trends API, and ProPublica Congress API.
 </div>
 </div>
 
@@ -189,7 +189,7 @@ Originally completed February 2023 as part of MSc graduation requirements (AISSR
 <span class="cv-entry__date">MSc Thesis, University of Amsterdam, 2023</span>
 </div>
 <div class="cv-entry__desc">
-Grade: 8.0/10. Advisor: Dr. Joost Berkhout. NLP pipeline across 78,000 Congressional Record documents; SVM classifier (F1 = 0.79) and multilevel modeling of organizational prominence.
+Grade: 8.0/10. Advisor: Dr. Joost Berkhout. NLP pipeline across 78,000 Congressional Record documents; Multinomial Naive Bayes classifier (F1 ≈ 0.73) and multilevel modeling of organizational prominence. (The thesis text names the classifier an SVM; the deployed model was Naive Bayes. Corrected here; see the repository erratum.)
 </div>
 </div>
 

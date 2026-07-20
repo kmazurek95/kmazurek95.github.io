@@ -22,7 +22,7 @@ How prominent are interest groups in congressional floor speeches, and what pred
 
 ## What I Built
 
-A five-stage NLP pipeline that processes raw Congressional Record documents from the GovInfo API into a multi-level analytical dataset. This is the post-graduation rebuild of my MSc thesis pipeline; the original thesis classifier was an SVM with count-vectorizer features (per-class F1 = 0.79 prominent / 0.65 non-prominent), and the rebuild is a separate artifact with its own corpus and metrics:
+A five-stage NLP pipeline that processes raw Congressional Record documents from the GovInfo API into a multi-level analytical dataset. This is the post-graduation rebuild of my MSc thesis pipeline; the original thesis classifier was Multinomial Naive Bayes with TF-IDF features (F1 ≈ 0.73), and the rebuild is a separate artifact with its own corpus and metrics:
 
 1. **Data Collection**: Custom Python scraper pulling House and Senate granules from the GovInfo API with retry logic and rate limiting
 2. **Text Processing**: HTML parsing, sentence segmentation, dictionary-based entity extraction with character offsets against a lookup dictionary of 5,447 advocacy organizations (Washington Representatives Study)
