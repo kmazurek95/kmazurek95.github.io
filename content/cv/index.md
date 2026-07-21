@@ -19,7 +19,7 @@ Empirical-Analytical Methods track. Thesis: "Interest Group Prominence in Congre
 
 <div class="cv-entry">
 <div class="cv-entry__header">
-<span class="cv-entry__title">BA International Studies and Economics</span>
+<span class="cv-entry__title">BA International Studies</span>
 <span class="cv-entry__date">2014–2018</span>
 </div>
 <div class="cv-entry__org">Macalester College</div>
