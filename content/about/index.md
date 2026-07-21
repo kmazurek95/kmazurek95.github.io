@@ -4,7 +4,7 @@ layout: "single"
 type: "page"
 ---
 
-I'm a quantitative social scientist who works on two sides of AI: how it gets measured and evaluated, and how it reshapes economic institutions. One question connects the two: does the number measure what it claims to? I'm based in Chicago. My background is in comparative political economy and computational methods. I hold an MSc in Social Science Research from the University of Amsterdam and a BA in International Studies and Economics from Macalester College.
+I'm a quantitative social scientist who works on two sides of AI: how it gets measured and evaluated, and how it reshapes economic institutions. One question connects the two: does the number measure what it claims to? I'm based in Chicago. My background is in comparative political economy and computational methods. I hold an MSc in Social Science Research from the University of Amsterdam and a BA in International Studies (minor in Economics) from Macalester College.
 
 ## The question
 

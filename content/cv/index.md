@@ -82,8 +82,8 @@ Cross-national multilevel analysis using European Social Survey data (ESS Round 
 <span class="cv-entry__date">2025</span>
 </div>
 <div class="cv-entry__desc">
-Multilevel analysis of 4,748 individuals across 1,572 Dutch neighborhoods (CBS data) and cross-national extension (ESS Round 9, 28 countries). Dual R/Python implementation. Neighborhood ICC = 3.4%; country ICC = 7.7% with significant income-by-Gini interaction (p = 0.002).
-<br><a href="https://github.com/kmazurek95/public-attitudes-research">Repository</a> · <a href="https://public-attitudes-research-zcx3tbf4verisz7pavqgzb.streamlit.app/">Dashboard</a>
+Multilevel analysis of 3,931 respondents across 1,382 Dutch buurten (SCoRE 2017 survey linked to CBS neighbourhood statistics). Neighborhood income composition is a strong bivariate predictor that fully attenuates under controls; the M3 coefficient is a null (+1.20 per SD, p = 0.21), with a between-neighborhood ICC of 3.3%.
+<br><a href="https://github.com/kmazurek95/public-attitudes-research">Repository</a>
 </div>
 </div>
 </div>
@@ -142,7 +142,7 @@ MSc thesis project on interest group prominence in US Congressional debates, sup
 </div>
 <div class="cv-entry__org">Amsterdam Institute of Social Science Research (AISSR) · Internship</div>
 <div class="cv-entry__desc">
-Supervisor: Dr. Wouter Schakel. Conducted an independent research project asking whether the income composition of someone's neighborhood shapes their preferences for redistribution. Neighborhood context accounts for about 3.4% of the variance in attitudes, a null finding that points toward institutional rather than geographic explanations. Linked Dutch survey microdata (SCoRE 2017) with CBS administrative statistics across three geographic levels (neighborhoods, districts, municipalities), building a hierarchical dataset of 4,748 respondents in 1,572 neighborhoods. Ran 10+ multilevel model specifications with cross-level interactions in both Python and R, testing whether local income inequality, neighborhood affluence, and relative deprivation predict redistribution support.
+Supervisor: Dr. Wouter Schakel. Conducted an independent research project asking whether the income composition of someone's neighborhood shapes their preferences for redistribution. Neighborhood context accounts for about 3.3% of the variance in attitudes, a null finding that points toward institutional rather than geographic explanations. Linked Dutch survey data (SCoRE 2017) with CBS administrative statistics across three geographic levels (neighborhoods, districts, municipalities), building a hierarchical dataset of 3,931 respondents in 1,382 buurten. Ran multiple multilevel model specifications with cross-level interactions in R, testing whether local income inequality, neighborhood affluence, and relative deprivation predict redistribution support.
 </div>
 </div>
 
@@ -179,7 +179,7 @@ Two-dimensional typology of 29 OECD countries along AI task-profile and labor ma
 <span class="cv-entry__date">Revised Working Paper, January 2026</span>
 </div>
 <div class="cv-entry__desc">
-Originally completed February 2023 as part of MSc graduation requirements (AISSR/University of Amsterdam). Multilevel test of whether neighborhood socioeconomic composition shapes redistribution preferences in a strong welfare state; bivariate neighborhood effects fully absorbed by controls (N = 4,748).
+Originally completed February 2023 as part of MSc graduation requirements (AISSR/University of Amsterdam). Multilevel test of whether neighborhood socioeconomic composition shapes redistribution preferences in a strong welfare state; bivariate neighborhood effects fully absorbed by controls (N = 3,931).
 </div>
 </div>
 
@@ -275,7 +275,7 @@ Five methodological parallels between social science research design and AI eval
 <div class="cv-entry">
 <div class="cv-entry__desc">
 <strong>Statistical:</strong> Multilevel / mixed-effects modeling (lme4, statsmodels), logistic regression, ICC decomposition, cross-level interactions, survey analysis, measurement validation<br>
-<strong>Computational:</strong> Python, R, SQL, Stata, NLP (text classification, entity extraction, SHAP), scikit-learn, pandas, Streamlit, Shiny<br>
+<strong>Computational:</strong> Python, R, SQL, Stata, NLP (text classification, entity extraction, SHAP), scikit-learn, pandas, Streamlit<br>
 <strong>Data:</strong> Census API, GovInfo API, MEDSL, ACS, BLS, European Social Survey, CBS (Dutch Statistics)<br>
 <strong>Languages:</strong> English (native), Arabic (conversational)
 </div>

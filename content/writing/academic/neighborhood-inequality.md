@@ -4,9 +4,7 @@ subtitle: "Testing the Inferential Spaces Hypothesis in the Netherlands"
 date: 2026-01-15
 type: "Working Paper"
 status: "Revised Working Paper · January 2026"
-paper: "https://github.com/kmazurek95/public-attitudes-research/blob/main/docs/academic/PAPER.md"
 repo: "https://github.com/kmazurek95/public-attitudes-research"
-dashboard: "https://public-attitudes-research-zcx3tbf4verisz7pavqgzb.streamlit.app/"
 authors: ["Kaleb Mazurek"]
 affiliation: "University of Amsterdam, Amsterdam Institute for Social Science Research (AISSR)"
 summary: "Multilevel test of whether neighborhood socioeconomic composition shapes redistribution preferences in the Netherlands. Neighborhood effects observed in bivariate models are fully absorbed by individual-level controls; cross-level interaction with individual wealth is also non-significant. The institutional and informational context, not the immediate socioeconomic environment, appears to matter more for preference formation."
@@ -17,7 +15,9 @@ weight: 2
 
 **Revised Working Paper · January 2026**
 
-[Read the paper](https://github.com/kmazurek95/public-attitudes-research/blob/main/docs/academic/PAPER.md) · [Replication code](https://github.com/kmazurek95/public-attitudes-research) · [Interactive dashboard](https://public-attitudes-research-zcx3tbf4verisz7pavqgzb.streamlit.app/)
+[Replication code](https://github.com/kmazurek95/public-attitudes-research) · [Corrected model summary](https://github.com/kmazurek95/public-attitudes-research/blob/main/outputs/MODELS_SUMMARY_fixed.md)
+
+> **Note (2026):** The figures on this page reflect the original 2023 analysis and are being revised following a 2026 data-and-geography reconciliation. The corrected headline is a null (M3 +1.20 per SD, *p* = 0.21; N = 3,931 in 1,382 buurten; ICC ≈ 3.3%). See the [corrected model summary](https://github.com/kmazurek95/public-attitudes-research/blob/main/outputs/MODELS_SUMMARY_fixed.md) for current estimates.
 
 Originally completed as part of the Research Master's in Social Sciences graduation requirements (University of Amsterdam, February 2023). Revised January 2026.
 

@@ -26,7 +26,7 @@ Before AI, the same measurement-design problem showed up in political text: how 
 
 The question here predates AI: when structural economic forces create winners and losers, what determines whether societies respond with solidarity or drift? I started with inequality, redistribution preferences, and welfare states, and across four projects at different scales the same result kept appearing. **Institutional context outperforms individual and local conditions** at every scale I have tested.
 
-- Neighborhood-level inequality explains **3.4%** of variance in Dutch redistribution attitudes.
+- Neighborhood-level inequality explains **3.3%** of variance in Dutch redistribution attitudes.
 - Country-level institutions explain **7.7%** of cross-national redistribution variance, with a significant income × inequality interaction (*p* = 0.002).
 - State-level context explains **31%** of county-level partisan swing in the 2020-2024 US election (ICC = 0.305).
 
@@ -46,7 +46,7 @@ A state-level ICC of 0.305 puts roughly a third of county-level swing variance a
 
 ### [Income Inequality and Redistribution Preferences](/projects/public-attitudes/)
 
-The small neighborhood-level ICC (3.4%) was itself the finding; it pushed the question toward what scale contextual effects actually operate at, and the cross-national extension answered it: country-level institutions explain more than neighborhoods do.
+The small neighborhood-level ICC (3.3%) was itself the finding; it pushed the question toward what scale contextual effects actually operate at, and the cross-national extension answered it: country-level institutions explain more than neighborhoods do.
 
 ## Where this is heading
 
