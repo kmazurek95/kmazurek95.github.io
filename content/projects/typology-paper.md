@@ -2,9 +2,10 @@
 title: "Institutional Configurations and the Social Politics of AI"
 type: "Comparative Political Economy / Two-Dimensional Typology"
 summary: "Two-dimensional typology of 29 OECD countries along AI task-profile and labor market dualization axes. Working Paper v1.0, April 2026."
+pitch: "Two-dimensional mapping of 29 OECD countries along AI task-profile and labor market dualization axes. The insider-outsider architecture built to insulate industrial workers from offshoring now faces a shock aimed at the cognitive workers that architecture was designed to protect."
 date: 2026-04-17
-weight: 2
-featured: true
+weight: 3
+home: "featured"
 repo: "https://github.com/kmazurek95/typology-paper"
 paper: "/pdfs/Mazurek_2026_Typology_v1.pdf"
 stats:

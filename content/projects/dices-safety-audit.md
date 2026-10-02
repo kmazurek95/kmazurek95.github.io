@@ -3,8 +3,8 @@ title: "A Measurement Audit of the DICES-350 Safety Taxonomy"
 type: "Psychometric Audit / AI Safety Evaluation"
 summary: "A psychometric audit of the DICES-350 conversational-AI safety annotation taxonomy, treated as a measurement instrument rather than a fixed rubric. Tests whether its harm categories are reliable, dimensionally coherent, and empirically distinct at full rater power."
 date: 2026-07-02
-weight: 1
-featured: true
+weight: 2
+home: "grid"
 repo: "https://github.com/kmazurek95/dices-safety-audit"
 stats:
   - "43,050 ratings"

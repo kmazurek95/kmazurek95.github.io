@@ -8,7 +8,7 @@
         <div class="footer-links">
           {{ with .Site.Params.github }}<a href="{{ . }}" target="_blank" rel="noopener">GitHub</a>{{ end }}
           {{ with .Site.Params.linkedin }}<a href="{{ . }}" target="_blank" rel="noopener">LinkedIn</a>{{ end }}
-          <a href="{{ "posts/index.xml" | absURL }}">RSS</a>
+          <a href="{{ "writing/index.xml" | absURL }}">RSS</a>
         </div>
         {{ if not .Site.Lastmod.IsZero }}
         <div class="footer-updated">Last updated: {{ .Site.Lastmod.Format "January 2006" }}</div>

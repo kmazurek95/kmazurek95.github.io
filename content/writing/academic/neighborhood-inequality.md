@@ -11,6 +11,7 @@ summary: "Multilevel test of whether neighborhood socioeconomic composition shap
 keywords: ["income inequality", "redistribution preferences", "neighborhood effects", "multilevel modeling", "Netherlands", "contextual effects", "welfare state"]
 tags: ["Academic", "Political Economy", "Quant"]
 weight: 2
+draft: true
 ---
 
 **Revised Working Paper · January 2026**

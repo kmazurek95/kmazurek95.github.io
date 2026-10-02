@@ -701,3 +701,41 @@ a:hover { color: var(--color-accent-light); }
   .section-header { gap: 1rem; }
   .section-number { font-size: 2.5rem; }
 }
+
+/* ---- 2026-10 home and writing restructure ---- */
+
+.hero-links { flex-wrap: wrap; row-gap: 1rem; }
+.project-card__links { flex-wrap: wrap; row-gap: 0.5rem; }
+
+.post-list--compact .post-excerpt {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.post-title .tag { vertical-align: middle; margin-left: 0.15rem; }
+
+.writing-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+.writing-filter a {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 2px;
+  color: var(--color-text-secondary);
+}
+.writing-filter a:hover { border-color: var(--color-accent); color: var(--color-accent); }
+.writing-filter a.is-active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+}
+.projects-grid--featured .project-card { border-top: 3px solid var(--color-accent); }

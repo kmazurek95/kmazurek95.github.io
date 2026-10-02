@@ -175,7 +175,7 @@ Two-dimensional typology of 29 OECD countries along AI task-profile and labor ma
 
 <div class="cv-entry">
 <div class="cv-entry__header">
-<span class="cv-entry__title"><a href="/writing/academic/neighborhood-inequality/">Neighborhood Inequality and Redistribution Preferences: Testing the Inferential Spaces Hypothesis in the Netherlands</a></span>
+<span class="cv-entry__title"><a href="/projects/public-attitudes/">Neighborhood Inequality and Redistribution Preferences: Testing the Inferential Spaces Hypothesis in the Netherlands</a></span>
 <span class="cv-entry__date">Revised Working Paper, January 2026</span>
 </div>
 <div class="cv-entry__desc">

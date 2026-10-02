@@ -18,6 +18,10 @@ The question here is narrow and load-bearing: before you trust a score, can you 
 
 I audited a published conversational-AI safety taxonomy at full rater power, 123 raters and 43,050 ratings, and found three problems that have to be kept separate: it is not unidimensional, its reliability cannot be established for most categories under conservative criteria (18 of 23 are base-rate artifacts), and its two largest categories, harmful content and unfair bias, are not empirically discriminable (HTMT 0.922). No prior work applies a heterotrait-monotrait discriminant test to the DICES taxonomy.
 
+### [A Sampling-Frame Audit of OpenAI's GDPval Benchmark](/projects/gdpval-audit/)
+
+Benchmarks sample too. OpenAI's GDPval draws its tasks from 44 occupations, and those occupations hold 19.2% of US wage and salary jobs, a number the paper doesn't report. I pre-registered the analysis, including a secondary exposure test that could count against my hypothesis but never confirm it. The essay version is ["The Other 81 Percent"](/writing/essays/the-other-81-percent/).
+
 ### [Interest Group Prominence in Congressional Speech](/projects/thesis-pipeline/)
 
 Before AI, the same measurement-design problem showed up in political text: how do you operationalize "prominence" and build a defensible classifier for it across 78,000 Congressional Record documents? The post-graduation rebuild of the pipeline reached a test F1 of 0.91, with classifier-human agreement at Cohen's kappa = 0.82. Construct definition, annotation reliability, threshold optimization: the skill set an evaluation audit runs on. I wrote about the transfer in ["What Political Science Can Teach AI Evaluation"](/writing/essays/political-science-ai-evaluation/).

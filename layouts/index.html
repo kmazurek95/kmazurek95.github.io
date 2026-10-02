@@ -12,36 +12,25 @@
       <div class="hero-links">
         <a href="/research-program/" class="btn-primary">Research Program</a>
         <a href="/projects/dices-safety-audit/">AI Safety Measurement Audit &rarr;</a>
-        <a href="/writing/academic/">Working Papers &rarr;</a>
+        <a href="/writing/essays/the-other-81-percent/">GDPval Coverage Audit &rarr;</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Featured Paper -->
-<section class="section" id="featured-paper">
+<!-- Featured Work -->
+<section class="section" id="featured">
   <div class="container">
     <div class="section-header">
       <div>
-        <h2 class="section-title">Featured Paper</h2>
-        <p class="section-subtitle">Working Paper v1.0 · April 2026</p>
+        <h2 class="section-title">Featured Work</h2>
+        <p class="section-subtitle">One from each track</p>
       </div>
     </div>
-    <div class="project-card" style="max-width: 820px;">
-      <div class="project-card__type">Comparative Political Economy · Working Paper</div>
-      <h3 class="project-card__title">Institutional Configurations and the Social Politics of AI</h3>
-      <p class="project-card__desc">Two-dimensional mapping of 29 OECD countries along AI task-profile and labor market dualization axes. The insider-outsider architecture built to insulate industrial workers from offshoring now faces a shock aimed at the cognitive workers that architecture was designed to protect.</p>
-      <div class="project-card__meta">
-        <span class="project-card__stat">29 countries</span>
-        <span class="project-card__stat">PIAAC + OECD EPL v4</span>
-        <span class="project-card__stat">AIOE validation r = 0.71</span>
-        <span class="project-card__stat">4 populated cells</span>
-      </div>
-      <div class="project-card__links">
-        <a href="/writing/academic/typology-paper/">Details &rarr;</a>
-        <a href="/pdfs/Mazurek_2026_Typology_v1.pdf" target="_blank" rel="noopener">Download PDF</a>
-        <a href="https://github.com/kmazurek95/typology-paper" target="_blank" rel="noopener">Replication Code</a>
-      </div>
+    <div class="projects-grid projects-grid--featured">
+      {{ range (where (where .Site.RegularPages "Section" "projects") "Params.home" "featured").ByWeight }}
+        {{ partial "project-card.html" (dict "page" . "desc" (.Params.pitch | default .Params.summary)) }}
+      {{ end }}
     </div>
   </div>
 </section>
@@ -56,61 +45,27 @@
       </div>
     </div>
     <div class="projects-grid">
-      {{ range where .Site.RegularPages "Section" "projects" }}
-        {{ if .Params.featured }}
-        <div class="project-card">
-          <div class="project-card__type">{{ .Params.type }}</div>
-          <h3 class="project-card__title">{{ .Title }}</h3>
-          <p class="project-card__desc">{{ .Params.summary }}</p>
-          <div class="project-card__meta">
-            {{ range .Params.stats }}
-              <span class="project-card__stat">{{ . }}</span>
-            {{ end }}
-          </div>
-          <div class="project-card__links">
-            <a href="{{ .RelPermalink }}">Details &rarr;</a>
-            {{ with .Params.repo }}<a href="{{ . }}" target="_blank" rel="noopener">GitHub</a>{{ end }}
-            {{ with .Params.dashboard }}<a href="{{ . }}" target="_blank" rel="noopener">Dashboard</a>{{ end }}
-          </div>
-        </div>
-        {{ end }}
+      {{ range (where (where .Site.RegularPages "Section" "projects") "Params.home" "grid").ByWeight }}
+        {{ partial "project-card.html" (dict "page" . "desc" .Params.summary) }}
       {{ end }}
     </div>
     <p style="margin-top: 2rem;"><a href="/projects/">All projects &rarr;</a></p>
   </div>
 </section>
 
-<!-- Recent Writing -->
+<!-- Recent Writing (newest three, generated from content/writing) -->
 <section class="section" id="writing">
   <div class="container">
     <div class="section-header">
       <div>
         <h2 class="section-title">Recent Writing</h2>
-        <p class="section-subtitle">Selected academic work, essays, and commentary</p>
+        <p class="section-subtitle">Working papers, policy briefs, and essays</p>
       </div>
     </div>
-    <ul class="post-list">
-      <li class="post-item">
-        <time class="post-date">Apr 2026</time>
-        <div>
-          <div class="post-title"><a href="/writing/academic/typology-paper/">Institutional Configurations and the Social Politics of AI</a> <span class="tag">Academic</span></div>
-          <p class="post-excerpt">Working paper mapping 29 OECD countries along AI task-profile and labor market dualization axes. Two institutional dimensions that welfare-regime classifications obscure.</p>
-        </div>
-      </li>
-      <li class="post-item">
-        <time class="post-date">Apr 2026</time>
-        <div>
-          <div class="post-title"><a href="/writing/essays/the-politics-already-here/">The politics already here</a> <span class="tag">Essay</span></div>
-          <p class="post-excerpt">The coalition that will set the terms of US AI regulation is forming in state legislatures and county zoning boards right now.</p>
-        </div>
-      </li>
-      <li class="post-item">
-        <time class="post-date">Mar 2026</time>
-        <div>
-          <div class="post-title"><a href="/writing/essays/the-energy-channel/">The Energy Channel Is Being Neglected</a> <span class="tag">Essay</span></div>
-          <p class="post-excerpt">AI is making electricity more expensive, the costs land on the wrong people, and the political backlash is already visible in three other countries.</p>
-        </div>
-      </li>
+    <ul class="post-list post-list--compact">
+      {{ range first 3 (where .Site.RegularPages "Section" "writing").ByDate.Reverse }}
+        {{ partial "post-item.html" . }}
+      {{ end }}
     </ul>
     <p style="margin-top: 1.5rem;"><a href="/writing/">All writing &rarr;</a></p>
   </div>
@@ -131,7 +86,7 @@
       <div class="method-tag">Cross-National Analysis</div>
       <div class="method-tag">AI Evaluation Methodology</div>
       <div class="method-tag">Psychometrics &amp; Measurement</div>
-      <div class="method-tag">Python / R / Stata</div>
+      <div class="method-tag">Python / R</div>
     </div>
   </div>
 </section>

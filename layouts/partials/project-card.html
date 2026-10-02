@@ -1,0 +1,18 @@
+{{- $p := .page -}}
+<div class="project-card">
+  <div class="project-card__type">{{ $p.Params.type }}</div>
+  <h3 class="project-card__title">{{ $p.Title }}</h3>
+  <p class="project-card__desc">{{ .desc }}</p>
+  <div class="project-card__meta">
+    {{ range $p.Params.stats }}
+      <span class="project-card__stat">{{ . }}</span>
+    {{ end }}
+  </div>
+  <div class="project-card__links">
+    <a href="{{ $p.RelPermalink }}">Details &rarr;</a>
+    {{ with $p.Params.essay }}<a href="{{ . }}">Essay</a>{{ end }}
+    {{ with $p.Params.paper }}<a href="{{ . }}" target="_blank" rel="noopener">Paper</a>{{ end }}
+    {{ with $p.Params.repo }}<a href="{{ . }}" target="_blank" rel="noopener">GitHub</a>{{ end }}
+    {{ with $p.Params.dashboard }}<a href="{{ . }}" target="_blank" rel="noopener">Dashboard</a>{{ end }}
+  </div>
+</div>

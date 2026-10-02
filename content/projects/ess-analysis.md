@@ -3,8 +3,7 @@ title: "Redistribution Preferences and Institutional Trust Across Europe"
 type: "Cross-National Analysis / Dual-DV Design"
 summary: "Multilevel analysis of redistribution preferences and political trust across 28 European countries using ESS data, paired with agent-based simulations calibrated from the model coefficients. Redistribution preferences drift gradually under inequality shocks; in simulation, institutional trust tips through a self-reinforcing feedback loop."
 date: 2025-08-01
-weight: 5
-featured: true
+weight: 6
 repo: "https://github.com/kmazurek95/ess-redistribution-analysis"
 stats:
   - "28 countries"

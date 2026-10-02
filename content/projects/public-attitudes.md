@@ -3,8 +3,8 @@ title: "Income Inequality and Redistribution Preferences"
 type: "Multilevel Modeling"
 summary: "A multilevel analysis of whether the income composition of a person's neighbourhood shapes their support for redistribution, using the SCoRE Netherlands 2017 survey linked to CBS neighbourhood statistics. The headline is a null."
 date: 2025-06-01
-weight: 6
-featured: false
+weight: 7
+aliases: ["/writing/academic/neighborhood-inequality/"]
 repo: "https://github.com/kmazurek95/public-attitudes-research"
 stats:
   - "3,931 respondents"
@@ -40,4 +40,3 @@ In a strong welfare state with relatively low inequality and limited residential
 - [Model summary (M0–M3)](https://github.com/kmazurek95/public-attitudes-research/blob/main/outputs/MODELS_SUMMARY_fixed.md)
 - [Limitations](https://github.com/kmazurek95/public-attitudes-research/blob/main/docs/LIMITATIONS.md)
 - [Reproducible R demo (synthetic data)](https://github.com/kmazurek95/public-attitudes-research/tree/main/r-pipeline-demo)
-- [Working paper: Neighborhood Inequality and Redistribution Preferences](/writing/academic/neighborhood-inequality/)

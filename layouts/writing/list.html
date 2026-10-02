@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="container content-narrow">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </header>
+  {{ $here := .RelPermalink }}
+  <nav class="writing-filter" aria-label="Filter writing by type">
+    {{ range slice (slice "All" "/writing/") (slice "Working papers" "/writing/academic/") (slice "Policy briefs" "/writing/policy/") (slice "Essays" "/writing/essays/") }}
+      <a href="{{ index . 1 }}"{{ if eq (index . 1) $here }} class="is-active" aria-current="page"{{ end }}>{{ index . 0 }}</a>
+    {{ end }}
+  </nav>
+  <ul class="post-list">
+    {{ range .RegularPagesRecursive.ByDate.Reverse }}
+      {{ partial "post-item.html" . }}
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
