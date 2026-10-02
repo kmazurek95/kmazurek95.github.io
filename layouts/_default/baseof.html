@@ -12,6 +12,9 @@
   <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
   <meta property="og:url" content="{{ .Permalink }}">
+  {{ with .Params.image }}<meta property="og:image" content="{{ . | absURL }}">
+  <meta name="twitter:card" content="summary_large_image">{{ end }}
+  <link rel="canonical" href="{{ with .Params.canonical_url }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
