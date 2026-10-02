@@ -50,7 +50,7 @@ A state-level ICC of 0.305 puts roughly a third of county-level swing variance a
 
 ### [Income Inequality and Redistribution Preferences](/projects/public-attitudes/)
 
-The small neighborhood-level ICC (3.3%) was itself the finding; it pushed the question toward what scale contextual effects actually operate at, and the cross-national extension answered it: country-level institutions explain more than neighborhoods do.
+The small neighborhood-level ICC (3.3%) was itself the finding; it pushed the question toward what scale contextual effects actually operate at. A separate project, the [cross-national ESS analysis](/projects/ess-analysis/), took the question to the country level: country-level institutions explain more than neighborhoods do.
 
 ## Where this is heading
 
