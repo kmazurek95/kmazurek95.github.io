@@ -19,7 +19,7 @@ Empirical-Analytical Methods track. Thesis: "Interest Group Prominence in Congre
 
 <div class="cv-entry">
 <div class="cv-entry__header">
-<span class="cv-entry__title">BA International Studies</span>
+<span class="cv-entry__title">BA International Studies and Classics</span>
 <span class="cv-entry__date">2014–2018</span>
 </div>
 <div class="cv-entry__org">Macalester College</div>
@@ -116,9 +116,9 @@ Contract work evaluating and training AI models across several platforms. Linked
 <div class="cv-entry">
 <div class="cv-entry__header">
 <span class="cv-entry__title">Elections Research Analyst</span>
-<span class="cv-entry__date">Aug 2020 – Jan 2024</span>
+<span class="cv-entry__date">Oct 2018 – Feb 2024</span>
 </div>
-<div class="cv-entry__org">BallotReady · Contract</div>
+<div class="cv-entry__org">BallotReady · Contract, part-time</div>
 <div class="cv-entry__desc">
 Built and maintained political datasets covering elections, redistricting, and officeholders across thousands of US jurisdictions. Developed reproducible ETL pipelines to ingest, clean, and standardize candidate and election records from federal, state, and local government sources. Ran quantitative validation checks (frequency distributions, cross-field consistency, outlier detection) and contacted government offices directly when sources conflicted. Produced analysis-ready datasets under tight deadlines while maintaining documentation standards for downstream use.
 </div>
@@ -149,11 +149,11 @@ Supervisor: Dr. Wouter Schakel. Conducted an independent research project asking
 <div class="cv-entry">
 <div class="cv-entry__header">
 <span class="cv-entry__title">English & Humanities Teacher</span>
-<span class="cv-entry__date">Aug 2018 – Jun 2020</span>
+<span class="cv-entry__date">Aug 2019 – Jun 2020</span>
 </div>
 <div class="cv-entry__org">Pioneers Baccalaureate School, Nablus, West Bank · Full-time</div>
 <div class="cv-entry__desc">
-Taught 26 classes per week in 5th-grade humanities and 1st-grade English at a bilingual K-12 school. Designed and implemented weekly lesson plans that used a range of media formats to improve comprehension, reading, writing, and speaking abilities. Two years of Arabic language immersion.
+Taught 26 classes per week in 5th-grade humanities and 1st-grade English at a bilingual K-12 school. Designed and implemented weekly lesson plans that used a range of media formats to improve comprehension, reading, writing, and speaking abilities. A year of daily Arabic immersion.
 </div>
 </div>
 </div>

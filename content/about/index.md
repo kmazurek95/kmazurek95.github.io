@@ -12,7 +12,7 @@ The political-economy side of the work runs on one question: when structural eco
 
 ## How I got here
 
-After Macalester I moved to Nablus in the West Bank to teach humanities and English at a bilingual school. Two years of classroom work, conversational Arabic, and daily life inside the political dynamics I had previously studied abstractly. International studies trains you to think about how international structures shape lived experience. The West Bank made that principle concrete.
+After Macalester I moved to Nablus in the West Bank to teach humanities and English at a bilingual school. A year of classroom work, conversational Arabic, and daily life inside the political dynamics I had previously studied abstractly. International studies trains you to think about how international structures shape lived experience. The West Bank made that principle concrete.
 
 I brought that orientation to my MSc at UvA, where the quantitative toolkit (multilevel modeling, measurement design, computational text analysis) caught up to the questions I had been asking. My thesis built an NLP classification pipeline across 78,000 congressional documents and earned an 8.0/10. I rebuilt the entire pipeline after graduating because I knew the methodology could be pushed further. Alongside and after the MSc, I built political data infrastructure at BallotReady across 20+ states, writing ETL pipelines and validation scripts for ballot measures, redistricting, and election records. That work kept me close to the concrete institutional plumbing that the comparative political economy literature is ultimately about.
 
