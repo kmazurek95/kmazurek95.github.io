@@ -138,7 +138,7 @@ MSc thesis project on interest group prominence in US Congressional debates, sup
 <div class="cv-entry">
 <div class="cv-entry__header">
 <span class="cv-entry__title">Quantitative Research Intern</span>
-<span class="cv-entry__date">Sep 2022 – Jan 2023</span>
+<span class="cv-entry__date">Sep 2022 – Feb 2023</span>
 </div>
 <div class="cv-entry__org">Amsterdam Institute of Social Science Research (AISSR) · Internship</div>
 <div class="cv-entry__desc">
