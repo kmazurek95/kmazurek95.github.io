@@ -9,7 +9,7 @@ enableGitInfo = true
 [params]
   description = "Quantitative social scientist working on AI from two sides: the measurement and evaluation of AI systems, and the political economy of AI infrastructure (labor markets, energy systems, welfare institutions)."
   author = "Kaleb Mazurek"
-  tagline = "AI Measurement & Evaluation · Political Economy of AI · Quantitative Social Science"
+  tagline = "AI evaluation and economic impacts"
   github = "https://github.com/kmazurek95"
   linkedin = "https://www.linkedin.com/in/kaleb-mazurek/"
   email = ""

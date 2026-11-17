@@ -3,7 +3,7 @@ title: "A Sampling-Frame Audit of OpenAI's GDPval Benchmark"
 type: "Benchmark Audit / AI Evaluation"
 summary: "A pre-registered audit of what OpenAI's GDPval benchmark samples. Its 44 occupations cover 19.2% of US wage and salary jobs and sit high on the pay scale. The paper reports neither number."
 date: 2026-10-02
-weight: 1
+weight: 2
 home: "featured"
 repo: "https://github.com/kmazurek95/benchmark-exposure-skew"
 essay: "/writing/essays/the-other-81-percent/"
