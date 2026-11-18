@@ -60,7 +60,7 @@ Multilevel model of 3,101 US counties nested in 49 states and DC. ICC = 0.305. H
 <span class="cv-entry__date">2023–2025</span>
 </div>
 <div class="cv-entry__desc">
-NLP pipeline: 78K congressional documents, TF-IDF + LogReg classifier (test F1 = 0.91; classifier-human agreement kappa = 0.82), 53,892 mentions across 2,260 organizations. SHAP attribution, multilevel regression, Streamlit dashboard. Full pipeline rebuilt post-thesis with CI/CD testing.
+NLP pipeline: 78K congressional documents, TF-IDF + LogReg classifier (test F1 = 0.91, threshold-tuned on the test set, n = 192; group-aware cross-validated F1 = 0.67; classifier-human agreement kappa = 0.82), 53,892 mentions across 2,260 organizations. SHAP attribution, multilevel regression, Streamlit dashboard. Full pipeline rebuilt post-thesis with CI/CD testing.
 <br><a href="https://github.com/kmazurek95/ThesisPipelineRework">Repository</a> · <a href="https://thesispipelinerework-emngd3hbxghtkfzbe9secw.streamlit.app/">Dashboard</a>
 </div>
 </div>

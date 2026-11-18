@@ -24,15 +24,11 @@ Benchmarks sample too. OpenAI's GDPval draws its tasks from 44 occupations, and 
 
 ### [Interest Group Prominence in Congressional Speech](/projects/thesis-pipeline/)
 
-Before AI, the same measurement-design problem showed up in political text: how do you operationalize "prominence" and build a defensible classifier for it across 78,000 Congressional Record documents? The post-graduation rebuild of the pipeline reached a test F1 of 0.91, with classifier-human agreement at Cohen's kappa = 0.82. Construct definition, annotation reliability, threshold optimization: the skill set an evaluation audit runs on. I wrote about the transfer in ["What Political Science Can Teach AI Evaluation"](/writing/essays/political-science-ai-evaluation/).
+Before AI, the same measurement-design problem showed up in political text: how do you operationalize "prominence" and build a defensible classifier for it across 78,000 Congressional Record documents? The post-graduation rebuild of the pipeline reached a test F1 of 0.91 (threshold-tuned on the test set, n = 192; group-aware cross-validated F1 = 0.67), with classifier-human agreement at Cohen's kappa = 0.82. Construct definition, annotation reliability, threshold optimization: the skill set an evaluation audit runs on. I wrote about the transfer in ["What Political Science Can Teach AI Evaluation"](/writing/essays/political-science-ai-evaluation/).
 
 ## Political economy of AI
 
-The question here predates AI: when structural economic forces create winners and losers, what determines whether societies respond with solidarity or drift? I started with inequality, redistribution preferences, and welfare states, and across four projects at different scales the same result kept appearing. **Institutional context outperforms individual and local conditions** at every scale I have tested.
-
-- Neighborhood-level inequality explains **3.3%** of variance in Dutch redistribution attitudes.
-- Country-level institutions explain **7.7%** of cross-national redistribution variance, with a significant income × inequality interaction (*p* = 0.002).
-- State-level context explains **31%** of county-level partisan swing in the 2020-2024 US election (ICC = 0.305).
+The question here predates AI: when structural economic forces create winners and losers, what determines whether societies respond with solidarity or drift?
 
 AI is where this track is heading, because it is a multi-channel distributional force that will test institutional configurations hard in the coming decades. It reshapes labor markets through cognitive-task displacement, absorbs grid capacity through the data-center buildout and passes the cost to households through utility rate regulation, and exposes economies to mineral and critical-gas dependencies through supply chains they do not control. These channels often land on the same households. The explanatory variable of interest is not the technology; it is the welfare state, labor-market regulation, and energy-pricing structure of the society absorbing the shock.
 
@@ -50,7 +46,7 @@ A state-level ICC of 0.305 puts roughly a third of county-level swing variance a
 
 ### [Income Inequality and Redistribution Preferences](/projects/public-attitudes/)
 
-The small neighborhood-level ICC (3.3%) was itself the finding; it pushed the question toward what scale contextual effects actually operate at. A separate project, the [cross-national ESS analysis](/projects/ess-analysis/), took the question to the country level: country-level institutions explain more than neighborhoods do.
+The small neighborhood-level ICC (3.3% of variance between neighborhoods in an empty model) was itself the finding; it pushed the question toward what scale contextual effects actually operate at. A separate project, the [cross-national ESS analysis](/projects/ess-analysis/), took the question to the country level.
 
 ## Where this is heading
 

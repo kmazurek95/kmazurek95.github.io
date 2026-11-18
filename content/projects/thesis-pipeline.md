@@ -10,7 +10,7 @@ dashboard: "https://thesispipelinerework-emngd3hbxghtkfzbe9secw.streamlit.app/"
 paper: "https://github.com/kmazurek95/ThesisPipelineRework/blob/main/docs/Thesis_UvA_Kaleb_Mazurek.pdf"
 stats:
   - "78K documents"
-  - "F1 = 0.91"
+  - "Cross-validated F1 = 0.67"
   - "kappa = 0.82"
   - "53,892 mentions"
 tags: ["NLP", "text-classification", "multilevel-modeling", "congressional-data"]
@@ -26,13 +26,13 @@ A five-stage NLP pipeline that processes raw Congressional Record documents from
 
 1. **Data Collection**: Custom Python scraper pulling House and Senate granules from the GovInfo API with retry logic and rate limiting
 2. **Text Processing**: HTML parsing, sentence segmentation, dictionary-based entity extraction with character offsets against a lookup dictionary of 5,447 advocacy organizations (Washington Representatives Study)
-3. **Classification**: TF-IDF + Logistic Regression with group-aware cross-validation and threshold optimization, reaching a test F1 of 0.91 (threshold-tuned on the held-out test set)
+3. **Classification**: TF-IDF + Logistic Regression with group-aware cross-validation and threshold optimization, reaching a test F1 of 0.91 (threshold-tuned on the test set, n = 192; group-aware cross-validated F1 = 0.67)
 4. **Integration**: Merges mentions with lobbying data (OpenSecrets), legislator metadata, and bill references into a 4-level analytical dataset
 5. **Analysis**: Logistic regression and OLS models with automated figure/table generation
 
 ## Key Findings
 
-The pipeline identified 53,892 mentions of 2,260 unique organizations across the 114th-115th Congress. Agreement between the classifier and the human gold labels on the held-out test set reached Cohen's kappa of 0.82 (labels from a single coder).
+The pipeline identified 53,892 mentions of 2,260 unique organizations across the 114th-115th Congress. Agreement between the classifier and the human gold labels on the test set reached Cohen's kappa of 0.82 (labels from a single coder).
 
 The classification approach uses SHAP feature attribution to make the model interpretable -- you can see exactly which textual features drive prominence classification for any given mention.
 
