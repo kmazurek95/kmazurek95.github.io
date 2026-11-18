@@ -3,6 +3,7 @@ title: "Anthropic's Acceleration: What the Public Data Show"
 date: 2026-11-18
 type: "Essay"
 description: "METR estimates Anthropic’s models are improving about 2x faster than before October 2025. On Epoch AI’s public index, Anthropic’s frontier rose about 1.45x faster."
+summary: "METR estimates Anthropic's models are improving about 2x faster than before October 2025. On Epoch AI's public index, Anthropic's frontier rose about 1.45x faster."
 image: "/images/anthropic-acceleration/note_fig1_anthropic_frontier.png"
 repo: "https://github.com/kmazurek95/anthropic-acceleration-public-data"
 tags: ["AI Evaluation", "Quant"]
