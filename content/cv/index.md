@@ -45,6 +45,28 @@ Psychometric audit of a conversational-AI safety taxonomy treated as a measureme
 
 <div class="cv-entry">
 <div class="cv-entry__header">
+<span class="cv-entry__title">GDPval Sampling-Frame Audit</span>
+<span class="cv-entry__date">2026</span>
+</div>
+<div class="cv-entry__desc">
+Pre-registered audit of what OpenAI's GDPval benchmark samples. Its 44 occupations cover 19.2% of US wage and salary jobs (29.7 million of 154.2 million) and sit high on the pay scale; the paper reports neither number.
+<br><a href="https://github.com/kmazurek95/benchmark-exposure-skew">Repository</a> · <a href="/projects/gdpval-audit/">Project page</a>
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__header">
+<span class="cv-entry__title">AI R&amp;D Acceleration at Anthropic: What the Public Data Show</span>
+<span class="cv-entry__date">2026</span>
+</div>
+<div class="cv-entry__desc">
+Rebuilt METR's estimate of AI R&amp;D acceleration at Anthropic from Epoch AI's public capabilities index. Anthropic's frontier rose about 1.45x faster after October 2025 (90% interval 1.27x to 1.69x, score uncertainty only), while the frontier across all developers shows no change of pace (0.93x). Descriptive; it does not test METR's 1.9x, which rests on internal data.
+<br><a href="https://github.com/kmazurek95/anthropic-acceleration-public-data">Repository</a> · <a href="/writing/essays/anthropic-acceleration-public-data/">Note</a>
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__header">
 <span class="cv-entry__title">2020-2024 County-Level Partisan Swing Analysis</span>
 <span class="cv-entry__date">2026</span>
 </div>
@@ -206,6 +228,46 @@ Multilevel analysis of 3,101 US counties nested in 49 states and DC; 31% of swin
 </div>
 
 <h3>Public Writing</h3>
+
+<div class="cv-entry">
+<div class="cv-entry__header">
+<span class="cv-entry__title"><a href="https://kmazurek95.substack.com/p/what-outsiders-can-check-about-anthropics">"What outsiders can check about Anthropic's acceleration"</a></span>
+<span class="cv-entry__date">Substack · November 2026</span>
+</div>
+<div class="cv-entry__desc">
+What Epoch AI's public index can and cannot say about METR's estimate that Anthropic's progress has doubled.
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__header">
+<span class="cv-entry__title"><a href="/writing/essays/anthropic-acceleration-public-data/">"Anthropic's Acceleration: What the Public Data Show"</a></span>
+<span class="cv-entry__date">Methods note · November 2026</span>
+</div>
+<div class="cv-entry__desc">
+The full write-up behind the Substack piece, with uncertainty intervals, every developer's trend and the code.
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__header">
+<span class="cv-entry__title"><a href="https://kmazurek95.substack.com/p/the-other-81-percent">"The Other 81 Percent"</a></span>
+<span class="cv-entry__date">Substack · October 2026</span>
+</div>
+<div class="cv-entry__desc">
+OpenAI's benchmark for economically valuable work covers about a fifth of US employment, and the paper doesn't say so.
+</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry__header">
+<span class="cv-entry__title"><a href="https://kmazurek95.substack.com/p/ai-safety-has-a-measurement-problem">"AI safety has a measurement problem"</a></span>
+<span class="cv-entry__date">Substack · July 2026</span>
+</div>
+<div class="cv-entry__desc">
+Most safety categories in the field's best-instrumented dataset cannot be certified reliable, and the two biggest cannot be told apart.
+</div>
+</div>
 
 <div class="cv-entry">
 <div class="cv-entry__header">
