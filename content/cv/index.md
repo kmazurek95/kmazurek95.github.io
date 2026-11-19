@@ -82,7 +82,7 @@ Multilevel model of 3,101 US counties nested in 49 states and DC. ICC = 0.305. H
 <span class="cv-entry__date">2023–2025</span>
 </div>
 <div class="cv-entry__desc">
-NLP pipeline: 78K congressional documents, TF-IDF + LogReg classifier (test F1 = 0.91, threshold-tuned on the test set, n = 192; group-aware cross-validated F1 = 0.67; classifier-human agreement kappa = 0.82), 53,892 mentions across 2,260 organizations. SHAP attribution, multilevel regression, Streamlit dashboard. Full pipeline rebuilt post-thesis with CI/CD testing.
+NLP pipeline over the 114th-115th Congressional Record: 53,892 mentions across 2,260 organizations, TF-IDF + LogReg classifier (test F1 = 0.91, threshold-tuned on the test set, n = 192; group-aware cross-validated F1 = 0.67; classifier-human agreement kappa = 0.82). SHAP attribution, multilevel regression, Streamlit dashboard. Full pipeline rebuilt post-thesis with CI/CD testing.
 <br><a href="https://github.com/kmazurek95/ThesisPipelineRework">Repository</a> · <a href="https://thesispipelinerework-emngd3hbxghtkfzbe9secw.streamlit.app/">Dashboard</a>
 </div>
 </div>
@@ -153,7 +153,7 @@ Built and maintained political datasets covering elections, redistricting, and o
 </div>
 <div class="cv-entry__org">University of Amsterdam</div>
 <div class="cv-entry__desc">
-MSc thesis project on interest group prominence in US Congressional debates, supervised by Dr. Joost Berkhout at the Amsterdam Institute for Social Science Research (AISSR). Thesis grade: 8.0/10. Built a corpus of 24,000+ organizational mentions (hand-labeled training set of 1,000) extracted from 78,000+ Congressional Record documents across the 114th and 115th Congresses using custom Python pipelines and the GovInfo API. Trained and validated a supervised text classifier (Multinomial Naive Bayes with TF-IDF features; F1 ≈ 0.73) to distinguish substantive from procedural mentions of advocacy organizations in legislative speech. Estimated multilevel generalized linear mixed models to assess how organizational traits, policy salience, and legislator characteristics shape the prominence of interest groups on the congressional floor. Integrated external data from the Washington Representatives Study, Google Trends API, and ProPublica Congress API.
+MSc thesis project on interest group prominence in US Congressional debates, supervised by Dr. Joost Berkhout at the Amsterdam Institute for Social Science Research (AISSR). Thesis grade: 8.0/10. Built a corpus from 77,857 Congressional Record documents across the 114th and 115th Congresses using custom Python pipelines and the GovInfo API; the thesis reports 20,699 mentions of 1,903 organizations in its analysis, and a hand-labeled sample of 1,000 mentions. Trained and validated a supervised text classifier (Multinomial Naive Bayes with TF-IDF features; F1 ≈ 0.73) to distinguish substantive from procedural mentions of advocacy organizations in legislative speech. Estimated multilevel generalized linear mixed models to assess how organizational traits, policy salience, and legislator characteristics shape the prominence of interest groups on the congressional floor. Integrated external data from the Washington Representatives Study, Google Trends API, and ProPublica Congress API.
 </div>
 </div>
 
@@ -211,7 +211,7 @@ Originally completed February 2023 as part of MSc graduation requirements (AISSR
 <span class="cv-entry__date">MSc Thesis, University of Amsterdam, 2023</span>
 </div>
 <div class="cv-entry__desc">
-Grade: 8.0/10. Advisor: Dr. Joost Berkhout. NLP pipeline across 78,000 Congressional Record documents; Multinomial Naive Bayes classifier (F1 ≈ 0.73) and multilevel modeling of organizational prominence. (The thesis text names the classifier an SVM; the deployed model was Naive Bayes. Corrected here; see the repository erratum.)
+Grade: 8.0/10. Advisor: Dr. Joost Berkhout. NLP pipeline across about 78,000 Congressional Record documents; Multinomial Naive Bayes classifier (F1 ≈ 0.73) and multilevel modeling of organizational prominence. (The thesis text names the classifier an SVM; the deployed model was Naive Bayes. Corrected here; see the repository erratum.)
 </div>
 </div>
 
